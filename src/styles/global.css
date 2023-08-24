@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Abril Fatface;
+    font-weight: 400;
+    src: url(../assets/fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+  }
+  @font-face {
+    font-family: PT Sans;
+    font-weight: 400;
+    src: url(../assets/fonts/PT_Sans/PTSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: PT Sans;
+    font-weight: 700;
+    src: url(../assets/fonts/PT_Sans/PTSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-style: italic;
+    src: url(../assets/fonts/PT_Sans/PTSans-Italic.ttf);
+  }
+  @font-face {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-style: italic;
+    src: url(../assets/fonts/PT_Sans/PTSans-BoldItalic.ttf);
+  }
+}
