@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ETHGünü - Ethereum ile tanışın!`,
+    title: `ETHGünü`,
     description: `ETHGünü`,
     author: `@eth_gunu`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -17,6 +17,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
+    "gatsby-plugin-sitemap",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -38,6 +39,35 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favicons/favicon-32x32.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locales`,
+        name: `locale`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-i18next`,
+      options: {
+        localeJsonSourceName: `locale`, // name given to `gatsby-source-filesystem` plugin.
+        languages: [`en`, `tr`],
+        defaultLanguage: `tr`,
+        siteUrl: `https://ethgunu.com/`,
+        // if you are using trailingSlash gatsby config include it here, as well (the default is 'always')
+        trailingSlash: "always",
+        // you can pass any i18next options
+        i18nextOptions: {
+          interpolation: {
+            escapeValue: false, // not needed for react as it escapes by default
+          },
+          keySeparator: false,
+          nsSeparator: false,
+        },
+        pages: [
+          // Ignored pages, that won't be translated
+        ],
       },
     },
   ],
