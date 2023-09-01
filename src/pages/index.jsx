@@ -4,6 +4,7 @@ import { Link, Trans, useTranslation } from "gatsby-plugin-react-i18next"
 import Seo from "../components/seo"
 import logo from "../images/ethgunu-horizontal.png"
 import Layout from "../components/Layout"
+import { graphql } from "gatsby"
 
 export const query = graphql`
   query ($language: String!) {
