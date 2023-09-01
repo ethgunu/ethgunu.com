@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ptSans: ["PT Sans", ...defaultTheme.fontFamily.mono],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
       animation: {
         "gradient-x": "gradient-x 5s ease infinite",
@@ -46,6 +47,15 @@ module.exports = {
             "background-position": "right center",
           },
         },
+      },
+      colors: {
+        gunuNavy: "#1B4DFF",
+        // gunuPink: "#FFE1DD",
+        gunuPink: "#DBB7B7",
+        gunuOrange: "#FF4E26",
+        gunuLightBlue: "#71D9FF",
+        gunuTeal: "#9FFFFF",
+        gunuDark: "#36364c",
       },
     },
   },
