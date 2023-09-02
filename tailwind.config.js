@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ptSans: ["PT Sans", ...defaultTheme.fontFamily.mono],
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        serif: ["Abril Fatface", ...defaultTheme.fontFamily.serif],
       },
       animation: {
         "gradient-x": "gradient-x 5s ease infinite",
