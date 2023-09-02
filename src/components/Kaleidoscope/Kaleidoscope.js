@@ -84,16 +84,22 @@ class Shape {
   constructor() {
     this.x = Math.random() * 1024
     this.y = Math.random() * 512
+    // this.x = 690
+    // this.y = 500
+    // console.log(this.x, this.y)
     this.width = 10 + Math.random() * 40
     this.height = 10 + Math.random() * 40
+    // this.width = 10
+    // this.height = 10
     this.rotation = Math.random() * TAU
+    // this.rotation = 10
     this.color =
       "#" +
       Math.round(Math.random() * 15).toString(16) +
       Math.round(Math.random() * 15).toString(16) +
       "0000"
 
-    this.rotate = (-Math.PI + TAU * Math.random()) / TAU / 10
+    this.rotate = (-Math.PI + TAU * Math.random()) / TAU / 20
   }
 
   update() {
@@ -119,7 +125,8 @@ class Pattern {
   }
 
   update() {
-    this.context.fillStyle = "white"
+    // this.context.fillStyle = "#FFE1DD"
+    this.context.fillStyle = "#DBB7B7"
     this.context.fillRect(0, 0, 1024, 512)
 
     var shape
@@ -138,7 +145,7 @@ class Pattern {
   }
 
   randomCanvas() {
-    for (var i = 0; i < 150; i++) {
+    for (var i = 0; i < 80; i++) {
       this.shapes.push(new Shape())
     }
 

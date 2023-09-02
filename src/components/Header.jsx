@@ -6,7 +6,7 @@ import { FaTwitter, FaTelegram } from "react-icons/fa"
 const Header = ({ siteTitle }) => {
   const { languages, originalPath } = useI18next()
   return (
-    <header className="flex flex-row justify-between items-center px-16 bg-gunuPink h-16 py-4">
+    <header className="absolute top-0 flex flex-row justify-between items-center px-16 bg-gunuPink h-16 py-4 w-full drop-shadow-lg">
       <Link to="/" className="h-full">
         <img src={logo} className="h-full" />
       </Link>
