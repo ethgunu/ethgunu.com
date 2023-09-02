@@ -4,9 +4,10 @@ import devconnect from "../../images/devconnect.png"
 import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../../components/Kaleidoscope"
-import { Trans, Link } from "gatsby-plugin-react-i18next"
+import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 export default function Hero() {
+  const { t } = useTranslation()
   return (
     <section className="flex flex-col justify-center h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40%">
       <div class="flex-grow"></div>
@@ -53,7 +54,7 @@ export default function Hero() {
         <div className="text-sm">
           <BsArrowDownCircle />
         </div>
-        <div className="ml-4 text-xs">Scroll to continue</div>
+        <div className="ml-4 text-xs">{t("scroll")}</div>
       </div>
     </section>
   )
