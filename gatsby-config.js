@@ -14,6 +14,10 @@ module.exports = {
     author: `@eth_gunu`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  // Debug server side rendering on `gatsby develop`
+  // flags: {
+  //   DEV_SSR: true,
+  // },
   plugins: [
     `gatsby-plugin-image`,
     "gatsby-plugin-postcss",
