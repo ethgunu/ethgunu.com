@@ -7,3 +7,17 @@
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
+
+// Modify the webpack config to be able to load custom files (i.e. glsl files)
+exports.onCreateWebpackConfig = ({ stage, actions, getConfig }) => {
+  const config = getConfig()
+
+  config.module.rules.push({
+    test: /\.glsl/,
+    use: {
+      loader: "raw-loader",
+    },
+  })
+
+  actions.replaceWebpackConfig(config)
+}

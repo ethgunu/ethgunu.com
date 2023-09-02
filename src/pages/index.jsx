@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import logo from "../images/ethgunu-horizontal.png"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
+import "../components/Kaleidoscope"
 
 export const query = graphql`
   query ($language: String!) {
@@ -22,7 +23,7 @@ export const query = graphql`
 
 const IndexPage = () => (
   <Layout>
-    <div className="flex flex-col items-center justify-center min-h-screen min-w-screen animate-gradient-y bg-[linear-gradient(#ffe1dd,#d2d2ff,#d2ffe6,#ffe1dd)]">
+    <div className="flex flex-col items-center justify-center min-h-screen min-w-screen">
       <img src={logo} alt="logo" className="px-4 md:px-12 lg:w-1/2 lg:px-0" />
       <h1 className="text-xl md:text-4xl xl:text-5xl text-[#3636c4] font-ptSans">
         <Trans>Meet Ethereum</Trans>
