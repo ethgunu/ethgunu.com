@@ -29,6 +29,9 @@ export default function Slogan() {
             learn-ethereum
           </Trans>
         </h2>
+        <div className="text-sm text-gunuNavy-300 uppercase">
+          <Trans>until-event</Trans>
+        </div>
         <Countdown
           targetDateISO="2023-11-13T09:00:00"
           className=" text-gunuLightBlue uppercase text-2xl"
