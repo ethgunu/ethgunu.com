@@ -3,5 +3,32 @@
   "Istanbul Congress Center": "Istanbul Congress Center",
   "learn-ethereum": "Learn Ethereum and web3 from A to Z in <underline>Turkish</underline> from the experts in the heart of Istanbul!",
   "scroll": "Scroll to continue",
-  "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S"
+  "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S",
+  "Who should attend?": "Who should attend?",
+  "shouldAttendObj": {
+    "students": {
+      "title": "Students",
+      "cta": "As Stuents Learn why Ethereum and web3 matter in the future. Connect with fellow students and numerous university blockchain clubs. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    },
+    "developers": {
+      "title": "Developers",
+      "cta": "As Developers Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    },
+    "researchers": {
+      "title": "Researchers",
+      "cta": "As Researchers Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    },
+    "finance": {
+      "title": "Finance Professionals",
+      "cta": "As Finance Professionals Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    },
+    "regulators": {
+      "title": "Regulators",
+      "cta": "As Regulators Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    },
+    "anyone": {
+      "title": "Anyone curious!",
+      "cta": "As Anyone Curious Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+    }
+  }
 }

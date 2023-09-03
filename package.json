@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "debug": "^4.3.4",
     "framer-motion": "^10.16.2",
     "gatsby": "^5.12.1",
     "gatsby-plugin-image": "^3.12.0",

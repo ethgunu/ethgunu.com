@@ -6,6 +6,7 @@ import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Hero from "./main/Hero"
 import Slogan from "./main/Slogan"
+import WhoShouldAttend from "./main/WhoShouldAttend"
 
 export const query = graphql`
   query ($language: String!) {
@@ -25,6 +26,7 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <Slogan />
+    <WhoShouldAttend />
   </Layout>
 )
 

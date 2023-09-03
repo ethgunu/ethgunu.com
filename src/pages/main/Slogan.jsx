@@ -16,7 +16,7 @@ export default function Slogan() {
   const rotationClass = `rotate-[${rotation}]`
 
   return (
-    <div className="flex flex-grow flex-col h-96 bg-gunuNavy px-36 text-center">
+    <section className="flex flex-grow flex-col bg-gunuNavy px-36 text-center">
       <div className="flex flex-col items-center justify-center my-12">
         <motion.img
           src={blueTile}
@@ -24,17 +24,17 @@ export default function Slogan() {
           style={{ objectFit: "contain", rotate: rotation }}
           ref={targetRef}
         />
-        <h2 className="text-5xl font-serif text-white mt-8">
+        <h2 className="text-5xl font-serif text-white my-12">
           <Trans components={{ underline: <span className="underline" /> }}>
             learn-ethereum
           </Trans>
         </h2>
         <Countdown
           targetDateISO="2023-11-13T09:00:00"
-          className="mt-8 text-gunuLightBlue uppercase text-2xl"
+          className=" text-gunuLightBlue uppercase text-2xl"
         />
       </div>
-    </div>
+    </section>
   )
 }
 

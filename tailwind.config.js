@@ -57,6 +57,11 @@ module.exports = {
         gunuTeal: "#9FFFFF",
         gunuDark: "#36364c",
       },
+      backgroundImage: {
+        "gradient-1": "linear-gradient(to bottom, #FFE1DD, #D2D2FF)",
+        "gradient-2": "linear-gradient(to bottom, #D2D2FF, #D2FFE6)",
+        "gradient-3": "linear-gradient(to bottom, #D2FFE6, #FFE1DD)",
+      },
     },
   },
   plugins: [],

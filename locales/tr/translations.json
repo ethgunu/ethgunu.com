@@ -1,7 +1,34 @@
 {
   "Meet Ethereum": "Ethereum ile tanışın",
   "Istanbul Congress Center": "İstanbul Kongre Merkezi",
-  "learn-ethereum": "Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından <underline>Türkçe</underline> öğrenin!",
+  "learn-ethereum": "Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye <underline>Türkçe</underline> öğrenin!",
   "scroll": "Aşağı kaydırın",
-  "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN"
+  "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN",
+  "Who should attend?": "Kimler katılmalı?",
+  "shouldAttendObj": {
+    "students": {
+      "title": "Öğrenciler",
+      "cta": "Öğrenciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    },
+    "developers": {
+      "title": "Yazılım Geliştiriciler",
+      "cta": "Yazılım geliştiriciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    },
+    "researchers": {
+      "title": "Araştırmacılar",
+      "cta": "Araştırmacılar olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    },
+    "finance": {
+      "title": "Finans Profesyonelleri",
+      "cta": "Finans profesyonelleri olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    },
+    "regulators": {
+      "title": "Yasal Düzenleyiciler",
+      "cta": "Yasal düzenleyiciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    },
+    "anyone": {
+      "title": "Meraklı Herkes!",
+      "cta": "Meraklı herkes olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+    }
+  }
 }
