@@ -28,11 +28,20 @@ export default function Hero() {
       </div>
       {/* Bottom elements */}
       <div class="flex-grow"></div>
-      <div className="flex flex-col md:flex-row  mx-16 mb-2 justify-between items-center">
-        <div className="flex flex-row items-center">
-          <div className="text-5xl font-serif text-white">Nov 13 —</div>
+      <div className="flex flex-col md:flex-row  mx-16 mb-2 justify-center md:justify-between items-center">
+        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center">
+          <div className="text-xl md:text-5xl font-serif text-white">
+            13
+            <br />
+            {t("Nov")}
+            <br />
+            2023
+          </div>
+          <div className="text-xl md:text-5xl font-serif text-white mx-4">
+            —
+          </div>
           <Link to="https://devconnect.org" target="_blank" rel="noopener">
-            <img src={devconnect} className="h-10 invert ml-4" />
+            <img src={devconnect} className="h-8 md:h-10 invert" />
           </Link>
         </div>
         <Link
@@ -46,7 +55,7 @@ export default function Hero() {
             <div className="font-serif text-xl">
               <Trans>Istanbul Congress Center</Trans>
             </div>
-            <div className="text-xs">
+            <div className="text-xs hidden md:block">
               Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
             </div>
           </div>
