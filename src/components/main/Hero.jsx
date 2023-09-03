@@ -10,24 +10,24 @@ export default function Hero() {
   const { t } = useTranslation()
   return (
     <section
-      className="flex flex-col justify-center h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40%"
+      className="flex flex-col justify-end h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40% relative"
       id="hero"
     >
-      <div class="flex-grow"></div>
-      <div className="flex flex-col items-center">
+      {/* Large ETHGunu */}
+      <div className="flex flex-col items-center justify-center absolute inset-0 mt-[1.75rem] md:mt-[2.5rem] xl:mt-[3rem]">
         <img
           src={logo}
           alt="logo"
           className="px-4 md:px-12 lg:w-[800px] lg:px-0"
         />
+        <div className="flex flex-col items-center">
+          <h1 className="text-xl md:text-4xl xl:text-5xl text-gunuOrange mt-2">
+            <Trans>Meet Ethereum</Trans>
+          </h1>
+        </div>
       </div>
-      <div className="flex flex-col items-center">
-        <h1 className="text-xl md:text-4xl xl:text-5xl text-gunuOrange mt-2">
-          <Trans>Meet Ethereum</Trans>
-        </h1>
-      </div>
+
       {/* Bottom elements */}
-      <div class="flex-grow"></div>
       <div className="flex flex-col md:flex-row  mx-16 mb-2 justify-center md:justify-between items-center">
         <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center">
           <div className="text-xl md:text-5xl font-serif text-white">
