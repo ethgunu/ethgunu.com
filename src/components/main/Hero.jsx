@@ -28,7 +28,7 @@ export default function Hero() {
       </div>
       {/* Bottom elements */}
       <div class="flex-grow"></div>
-      <div className="flex flex-row mx-16 mb-2 justify-between">
+      <div className="flex flex-col md:flex-row  mx-16 mb-2 justify-between items-center">
         <div className="flex flex-row items-center">
           <div className="text-5xl font-serif text-white">Nov 13 —</div>
           <Link to="https://devconnect.org" target="_blank" rel="noopener">
@@ -36,7 +36,7 @@ export default function Hero() {
           </Link>
         </div>
         <Link
-          className="flex flex-row"
+          className="flex flex-row my-8"
           to="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
           target="_blank"
           rel="noopener"
@@ -53,7 +53,7 @@ export default function Hero() {
         </Link>
       </div>
       {/* Scroll sign */}
-      <div className="flex flex-row mb-2 mx-16 items-center text-gray-200 opacity-40 animate-bounce uppercase">
+      <div className="flex flex-row mb-16 md:mb-2 mx-16 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
         <div className="text-sm">
           <BsArrowDownCircle />
         </div>
