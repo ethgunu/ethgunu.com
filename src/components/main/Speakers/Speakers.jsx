@@ -37,7 +37,10 @@ export default function Speakers() {
   const { t } = useTranslation()
 
   return (
-    <section className="flex flex-col items-center justify-center pt-12 bg-gradient-2">
+    <section
+      className="flex flex-col items-center justify-center pt-12 bg-gradient-2"
+      id="speakers"
+    >
       <h3 className="text-2xl text-gray-600 my-6">{t("Speakers")}</h3>
       <div className="hexagon-main">
         <div className="hexagon-container mx-24 max-w-[800px] flex flex-col justify-center sm:block">

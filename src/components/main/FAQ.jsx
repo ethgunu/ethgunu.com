@@ -48,7 +48,10 @@ export default function FAQ() {
   const FAQItems = t("FAQItems", { returnObjects: true })
 
   return (
-    <section className="flex flex-col items-center justify-center py-12 bg-gradient-3 px-48">
+    <section
+      className="flex flex-col items-center justify-center py-12 bg-gradient-3 px-48"
+      id="faq"
+    >
       <h3 className="text-2xl text-gray-600 my-6">{t("FAQ")}</h3>
       {FAQItems.map((item, index) => (
         <FAQBox key={`faq-index`} question={item.q} answer={item.a} />

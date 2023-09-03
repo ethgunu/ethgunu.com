@@ -51,7 +51,10 @@ export default function WhoShouldAttend() {
   }
 
   return (
-    <section className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2 relative overflow-hidden">
+    <section
+      className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2 relative overflow-hidden"
+      id="whoShouldAttend"
+    >
       <h3 className="text-2xl text-gray-600 z-10">{t("Who should attend?")}</h3>
       <div className="mt-10 mx-12 max-w-5xl z-10">
         <div className="flex flex-row items-center min-h-[150px]">

@@ -8,7 +8,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
   const { t } = useTranslation()
   return (
-    <footer className="flex flex-col px-8 py-12 bg-gunuDark text-gray-300">
+    <footer
+      className="flex flex-col px-8 py-12 bg-gunuDark text-gray-300"
+      id="footer"
+    >
       {/* First row */}
       <div className="flex flex-row justify-between">
         {/* Venue */}

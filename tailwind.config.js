@@ -62,7 +62,7 @@ module.exports = {
           800: "#0b1f66",
           900: "#050f33",
         },
-        // gunuPink: "#FFE1DD",
+        gunuPinkLighter: "#FFE1DD",
         gunuPink: "#DBB7B7",
         gunuOrange: "#FF4E26",
         gunuLightBlue: "#71D9FF",

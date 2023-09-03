@@ -16,7 +16,10 @@ export default function Slogan() {
   const rotationClass = `rotate-[${rotation}]`
 
   return (
-    <section className="flex flex-grow flex-col bg-gunuNavy px-36 text-center">
+    <section
+      className="flex flex-grow flex-col bg-gunuNavy px-36 text-center"
+      id="slogan"
+    >
       <div className="flex flex-col items-center justify-center my-12">
         <motion.img
           src={blueTile}

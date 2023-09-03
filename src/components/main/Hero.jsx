@@ -9,7 +9,10 @@ import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
 export default function Hero() {
   const { t } = useTranslation()
   return (
-    <section className="flex flex-col justify-center h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40%">
+    <section
+      className="flex flex-col justify-center h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40%"
+      id="hero"
+    >
       <div class="flex-grow"></div>
       <div className="flex flex-col items-center">
         <img
