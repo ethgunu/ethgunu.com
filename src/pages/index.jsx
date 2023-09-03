@@ -4,11 +4,12 @@ import { useTranslation } from "gatsby-plugin-react-i18next"
 import Seo from "../components/seo"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
-import Hero from "./main/Hero"
-import Slogan from "./main/Slogan"
-import WhoShouldAttend from "./main/WhoShouldAttend"
-import Speakers from "./main/Speakers"
-import FAQ from "./main/FAQ"
+import Hero from "../components/main/Hero"
+import Slogan from "../components/main/Slogan"
+import WhoShouldAttend from "../components/main/WhoShouldAttend"
+import Speakers from "../components/main/Speakers"
+import FAQ from "../components/main/FAQ"
+import Footer from "../components/main/Footer"
 
 export const query = graphql`
   query ($language: String!) {
@@ -31,6 +32,7 @@ const IndexPage = () => (
     <WhoShouldAttend />
     <Speakers />
     <FAQ />
+    <Footer />
   </Layout>
 )
 

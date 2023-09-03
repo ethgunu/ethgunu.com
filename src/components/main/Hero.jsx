@@ -3,7 +3,7 @@ import logo from "../../images/ethgunu-text-only.png"
 import devconnect from "../../images/devconnect.png"
 import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
-import "../../components/Kaleidoscope"
+import "../Kaleidoscope"
 import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
 
 export default function Hero() {
