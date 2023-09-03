@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="absolute top-0 flex flex-row justify-between items-center px-6 md:px-12 bg-gunuPink h-16 py-4 w-full drop-shadow-lg">
+    <header className="absolute top-0 flex flex-row justify-between items-center px-6 md:px-12 bg-gunuPink h-16 py-4 w-full drop-shadow-lg z-50">
       {/* Desktop Icon */}
       <Link to="/" className="h-full hidden md:block">
         <img src={logo} className="h-full" />

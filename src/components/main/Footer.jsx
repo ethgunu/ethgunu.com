@@ -3,6 +3,7 @@ import { useTranslation } from "gatsby-plugin-react-i18next"
 import logo from "../../images/ethgunu-dark-horizontal.png"
 import { FaTelegram, FaTwitter } from "react-icons/fa"
 import efLogo from "../../images/ethereum-foundation-white.png"
+import devconnect from "../../images/devconnect.svg"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -28,7 +29,7 @@ export default function Footer() {
               href="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
               target="_blank"
               rel="noopener"
-              className="inline-block bg-gunuNavy text-gray-200 text-sm px-4 py-2 rounded-full mt-4"
+              className="inline-block bg-gunuNavy text-gray-200 text-sm px-4 py-2 rounded-md mt-4"
             >
               {t("Get Directions")}
             </a>
@@ -73,12 +74,14 @@ export default function Footer() {
       </div>
 
       {/* Second row */}
-      <div className="flex flex-row border-y-[1px] border-gray-500 py-8 justify-between">
-        <img src={logo} alt="ETHGunu Logo" className="w-48" />
+      <div className="flex flex-row border-y-[1px] border-gray-500 py-8 justify-between items-center">
+        <img src={logo} alt="ETHGunu Logo" className="h-12" />
         <div className="flex flex-col">
           <h3 className="text-gunuNavy">{t("Destekçiler")}</h3>
-          <div className="flex flex-row gap-16 mt-2">
-            <img src={logo} alt="ETHGunu Logo" className="w-24" />
+          <div className="flex flex-row gap-16 mt-2 items-center">
+            <a href="https://devconnect.org" target="_blank" rel="noopener">
+              <img src={devconnect} alt="ETHGunu Logo" className="h-12" />
+            </a>
             <a
               href="https://ethereum.foundation"
               target="_blank"
@@ -87,7 +90,7 @@ export default function Footer() {
               <img
                 src={efLogo}
                 alt="Ethereum Foundation Logo"
-                className="w-24"
+                className="h-12"
               />
             </a>
           </div>

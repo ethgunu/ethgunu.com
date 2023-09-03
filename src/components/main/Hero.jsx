@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "../../images/ethgunu-text-only.png"
-import devconnect from "../../images/devconnect.png"
+import devconnect from "../../images/devconnectIST.png"
 import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
