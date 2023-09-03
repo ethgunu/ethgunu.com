@@ -3,7 +3,7 @@ import { useTranslation } from "gatsby-plugin-react-i18next"
 import logo from "../../images/ethgunu-dark-horizontal.png"
 import { FaTelegram, FaTwitter } from "react-icons/fa"
 import efLogo from "../../images/ethereum-foundation-white.png"
-import devconnect from "../../images/devconnect.svg"
+import devconnect from "../../images/Devconnect.svg"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
