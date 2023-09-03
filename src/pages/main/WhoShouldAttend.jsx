@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs"
 import { AnimatePresence, motion } from "framer-motion"
 import largeTile from "../../images/tiles/tile-colorful-large.png"
