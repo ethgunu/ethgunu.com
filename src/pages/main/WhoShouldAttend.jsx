@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs"
 import { AnimatePresence, motion } from "framer-motion"
+import largeTile from "../../images/tiles/tile-colorful-large.png"
 import debug from "debug"
 const log = debug("WhoShouldAttend")
 log.enabled = true
@@ -50,9 +51,9 @@ export default function WhoShouldAttend() {
   }
 
   return (
-    <section className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2">
-      <h3 className="text-2xl text-gray-600">{t("Who should attend?")}</h3>
-      <div className="mt-10 mx-12 max-w-5xl">
+    <section className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2 relative overflow-hidden">
+      <h3 className="text-2xl text-gray-600 z-10">{t("Who should attend?")}</h3>
+      <div className="mt-10 mx-12 max-w-5xl z-10">
         <div className="flex flex-row items-center min-h-[150px]">
           <BsArrowLeftCircle
             className="box-content cursor-pointer w-24 text-3xl text-gray-500 active:text-gray-800"
@@ -121,6 +122,11 @@ export default function WhoShouldAttend() {
           ))}
         </div>
       </div>
+      <img
+        src={largeTile}
+        alt="tile"
+        className="h-[24rem] md:h-[48rem] opacity-20 absolute z-0 -bottom-[12rem] md:-bottom-[24rem]"
+      />
     </section>
   )
 }
