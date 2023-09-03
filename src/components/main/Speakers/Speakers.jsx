@@ -43,13 +43,13 @@ export default function Speakers() {
     >
       <h3 className="text-2xl text-gray-600 my-6">{t("Speakers")}</h3>
       <div className="hexagon-main">
-        <div className="hexagon-container mx-24 max-w-[800px] flex flex-col justify-center sm:block">
+        <div className="hexagon-container px-12 max-w-[64rem] flex flex-col justify-center sm:block">
           {speakers.map((speaker, index) => (
             <Speaker key={`speaker-${index}`} speaker={speaker} />
           ))}
         </div>
       </div>
-      <div className="mt-12">
+      <div className="mt-12 w-full">
         <img src={silhouette} alt="silhouette" className="w-full" />
       </div>
     </section>

@@ -17,17 +17,17 @@ export default function Slogan() {
 
   return (
     <section
-      className="flex flex-grow flex-col bg-gunuNavy px-36 text-center"
+      className="flex flex-grow flex-col bg-gunuNavy px-4 md:px-36 text-center items-center"
       id="slogan"
     >
-      <div className="flex flex-col items-center justify-center my-12">
+      <div className="flex flex-col items-center justify-center my-12 px-4 md:px-12 max-w-[64rem]">
         <motion.img
           src={blueTile}
           className={`w-20`}
           style={{ objectFit: "contain", rotate: rotation }}
           ref={targetRef}
         />
-        <h2 className="text-5xl font-serif text-white my-12">
+        <h2 className="text-3xl md:text-5xl font-serif text-white my-12">
           <Trans components={{ underline: <span className="underline" /> }}>
             learn-ethereum
           </Trans>
