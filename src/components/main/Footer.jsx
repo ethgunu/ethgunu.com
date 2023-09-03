@@ -14,7 +14,7 @@ export default function Footer() {
       id="footer"
     >
       {/* First row */}
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col items-center md:items-start text-center md:text-left md:flex-row justify-between">
         {/* Venue */}
         <div className="mb-8">
           <h3 className="text-gunuLightBlue">{t("Venue")}</h3>
@@ -52,14 +52,14 @@ export default function Footer() {
           </div>
         </div>
         {/* Contact */}
-        <div>
+        <div className="my-8 md:my-0">
           <h3 className="text-gunuLightBlue">{t("Contact")}</h3>
           <div className="mt-4">
             <div className="text-sm text-gray-400">
               <a href="mailto:info@ethgunu.com">info@ethgunu.com</a>
             </div>
           </div>
-          <div className="flex flex-col text-gunuLightBlue mt-8">
+          <div className="flex flex-col items-center md:items-start text-gunuLightBlue mt-8">
             <h3>{t("Socials")}</h3>
             <div className="flex flex-row gap-2 mt-2 text-gray-300">
               <a>
@@ -74,11 +74,11 @@ export default function Footer() {
       </div>
 
       {/* Second row */}
-      <div className="flex flex-row border-y-[1px] border-gray-500 py-8 justify-between items-center">
+      <div className="flex flex-col md:flex-row border-y-[1px] border-gray-500 py-8 justify-between items-center text-center md:text-left">
         <img src={logo} alt="ETHGunu Logo" className="h-12" />
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-8 md:mt-0">
           <h3 className="text-gunuNavy">{t("Destekçiler")}</h3>
-          <div className="flex flex-row gap-16 mt-2 items-center">
+          <div className="flex flex-wrap flex-row justify-center gap-16 mt-2 items-center">
             <a href="https://devconnect.org" target="_blank" rel="noopener">
               <img src={devconnect} alt="ETHGunu Logo" className="h-12" />
             </a>
@@ -96,11 +96,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row text-xs justify-between mt-4 ">
-        <div>
+      <div className="flex text-center md:text-left items-center flex-col md:flex-row text-xs justify-between">
+        <div className="mt-4">
           &copy; {currentYear} ETHGünü - {t("copyright-text")}
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-col md:flex-row gap-2 mt-4">
           <a>{t("Sitemap")}</a>
           <a>{t("Code of Conduct")}</a>
           <a>{t("Privacy Policy")}</a>
