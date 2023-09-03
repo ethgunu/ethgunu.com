@@ -1,0 +1,41 @@
+/* From https://css-tricks.com/hexagons-and-beyond-flexible-responsive-grid-patterns-sans-media-queries/ */
+
+.hexagon-main {
+  display: flex; /* we will talk about this later ... */
+  --s: 200px; /* size  */
+  --m: 4px; /* margin */
+  --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px);
+}
+.hexagon {
+  width: calc(var(--s) * 1.1547);
+  margin: var(--m);
+  height: calc(var(--s) * 1);
+  display: inline-block;
+  font-size: initial; /* we reset the font-size if we want to add some content */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+@media (min-width: 640px) {
+  .hexagon {
+    width: var(--s);
+    height: calc(var(--s) * 1.1547);
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    margin-bottom: calc(var(--m) - var(--s) * 0.2885);
+  }
+}
+
+.hexagon-container {
+  /* This is a trick */
+  font-size: 0;
+}
+@media (min-width: 640px) {
+  .hexagon-container::before {
+    content: "";
+    width: calc(var(--s) / 2 + var(--m));
+    float: left;
+    height: 120%;
+    shape-outside: repeating-linear-gradient(
+      #0000 0 calc(var(--f) - 3px),
+      #000 0 var(--f)
+    );
+  }
+}

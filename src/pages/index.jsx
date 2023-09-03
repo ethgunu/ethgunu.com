@@ -7,6 +7,7 @@ import { graphql } from "gatsby"
 import Hero from "./main/Hero"
 import Slogan from "./main/Slogan"
 import WhoShouldAttend from "./main/WhoShouldAttend"
+import Speakers from "./main/Speakers"
 
 export const query = graphql`
   query ($language: String!) {
@@ -27,6 +28,7 @@ const IndexPage = () => (
     <Hero />
     <Slogan />
     <WhoShouldAttend />
+    <Speakers />
   </Layout>
 )
 
