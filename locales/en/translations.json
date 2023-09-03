@@ -31,5 +31,40 @@
       "cta": "As Anyone Curious Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
     }
   },
-  "Speakers": "Speakers"
+  "Speakers": "Speakers",
+  "FAQ": "Freqently Asked Questions",
+  "FAQItems": [
+    {
+      "q": "What is Devconnect?",
+      "a": "Devcon is the Ethereum Foundation’s annual conference, where we educate and empower our community to build decentralized applications, and bring Ethereum protocols, tools, and culture to the world. This year, we are hosting a series of Devcon events around the world, and we are excited to bring Devcon to Turkey for the first time!"
+    },
+    {
+      "q": "What is Ethereum?",
+      "a": "Ethereum is a global, open-source platform for decentralized applications. On Ethereum, you can write code that controls digital value, runs exactly as programmed, and is accessible anywhere in the world."
+    },
+    {
+      "q": "What is ETHGünü?",
+      "a": "ETHGünü is a one-day event that will introduce Ethereum and web3 to the Turkish community. The event will feature talks and workshops from Ethereum experts, and will be a great opportunity to connect with the Ethereum community in Turkey."
+    },
+    {
+      "q": "What am I goint to learn at ETHGünü?",
+      "a": "You will learn about Ethereum and web3 from the experts, and get a taste of the opportunities in the ecosystem. You will also have the opportunity to connect with the Ethereum community in Turkey."
+    },
+    {
+      "q": "Will there be discussions or tips on pricing and trading of cryptocurrencies?",
+      "a": "No. ETHGünü is an educational event, and will not feature discussions or tips on pricing and trading of cryptocurrencies."
+    },
+    {
+      "q": "What is the language of the event?",
+      "a": "The event will be mostly in Turkish."
+    },
+    {
+      "q": "Will there be translation?",
+      "a": "Yes, there will be simulataneous translation from Turkish to English, and vice versa"
+    },
+    {
+      "q": "When are tickets going on sale?",
+      "a": "Tickets are not on sale yet. Please sign up for our mailing list to be notified when tickets go on sale."
+    }
+  ]
 }

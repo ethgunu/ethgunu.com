@@ -31,5 +31,40 @@
       "cta": "Meraklı herkes olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
     }
   },
-  "Speakers": "Konuşmacılar"
+  "Speakers": "Konuşmacılar",
+  "FAQ": "Sıkça Sorulan Sorular",
+  "FAQItems": [
+    {
+      "q": "Devconnect nedir?",
+      "a": "Devcon, Ethereum topluluğunun yıllık konferansıdır. Bu yıl, Devcon 5, 8-11 Ekim 2019 tarihleri arasında İstanbul'da gerçekleşecek."
+    },
+    {
+      "q": "Ethereum nedir?",
+      "a": "Ethereum, merkezi olmayan uygulamaları çalıştırmak için tasarlanmış bir platformdur. Bu, herhangi bir üçüncü tarafın müdahalesi olmadan çalışan, durdurulamayan bir bilgisayar platformu anlamına gelir."
+    },
+    {
+      "q": "ETHGünü nedir",
+      "a": "ETHGünü, Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenmek için bir fırsattır. 7 Ekim 2019'da İstanbul Kongre Merkezi'nde gerçekleşecek."
+    },
+    {
+      "q": "ETHGünü'nde Neler Öğrenceğim?",
+      "a": "ETHünü'nde Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğreneceksiniz. Ethereum'un temellerinden akıllı sözleşmelere, uygulama geliştirmeye ve daha fazlasına kadar, Ethereum ve web3'ü öğrenmek için ihtiyacınız olan her şeyi öğreneceksiniz."
+    },
+    {
+      "q": "Ethereum'un fiyati ve kripto para al-sat ile ilgili konuları öğrenecek miyim?",
+      "a": "Hayır. ETGünü, Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenmek için bir fırsattır. ETGünü'nde Ethereum'un fiyatı ve kripto para al-sat ile ilgili konuları öğrenmeyeceksiniz."
+    },
+    {
+      "q": "Etkinlik hangi dilde gerçekleşecek?",
+      "a": "ETGünü, çoğunlukla Türkçe olarak gerçekleşecektir."
+    },
+    {
+      "q": "Konuşmalarda çeviri olacak mı?",
+      "a": "Evet, konuşmalar Türkçe'den İngilizce'ye ve İngilizce'den Türkçe'ye simültane çevrilecektir."
+    },
+    {
+      "q": "Biletler ne zaman satışa çıkacak?",
+      "a": "Biletler henüz satışa çıkmadı. Biletlerin satışa çıkmasıyla ilgili güncellemeleri almak için lütfen e-posta listemize kaydolun."
+    }
+  ]
 }

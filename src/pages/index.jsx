@@ -8,6 +8,7 @@ import Hero from "./main/Hero"
 import Slogan from "./main/Slogan"
 import WhoShouldAttend from "./main/WhoShouldAttend"
 import Speakers from "./main/Speakers"
+import FAQ from "./main/FAQ"
 
 export const query = graphql`
   query ($language: String!) {
@@ -29,6 +30,7 @@ const IndexPage = () => (
     <Slogan />
     <WhoShouldAttend />
     <Speakers />
+    <FAQ />
   </Layout>
 )
 
