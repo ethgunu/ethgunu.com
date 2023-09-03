@@ -9,7 +9,7 @@ import Slogan from "../components/main/Slogan"
 import WhoShouldAttend from "../components/main/WhoShouldAttend"
 import Speakers from "../components/main/Speakers"
 import FAQ from "../components/main/FAQ"
-// import Footer from "../components/main/Footer"
+import Footer from "../components/main/Footer"
 
 export const query = graphql`
   query ($language: String!) {
@@ -32,7 +32,7 @@ const IndexPage = () => (
     <WhoShouldAttend />
     <Speakers />
     <FAQ />
-    {/* <Footer /> */}
+    <Footer />
   </Layout>
 )
 
