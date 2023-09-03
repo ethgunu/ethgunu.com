@@ -148,52 +148,6 @@ const Header = ({ siteTitle }) => {
             </motion.div>
           </AnimatePresence>
         )}
-        {/* <nav className="flex flex-row items-center space-x-2 text-gunuOrange uppercase gap-4 text-sm">
-          <Link to="#whoShouldAttend">
-            <Trans>Who should attend?</Trans>
-          </Link>
-          <Link to="#speakers">
-            <Trans>Speakers</Trans>
-          </Link>
-        </nav> */}
-        {/* <div className="flex flex-row items-center mx-8 space-x-2 text-gunuNavy">
-          <a
-            href="https://twitter.com/eth_gunu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitter />
-          </a>
-
-          <a
-            href="https://telegram.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTelegram />
-          </a>
-        </div>
-
-        <div className="flex text-gunuOrange items-center">
-          <button
-            className={`mx-1 ${language === languages[1] ? "font-bold" : ""}`}
-          >
-            <Link to={originalPath} language={languages[1]}>
-              {languages[1].toUpperCase()}
-            </Link>
-          </button>
-          <div>|</div>
-          <button
-            className={`mx-1 ${language === languages[0] ? "font-bold" : ""}`}
-          >
-            <Link to={originalPath} language={languages[0]}>
-              {languages[0].toUpperCase()}
-            </Link>
-          </button>
-          <div className="bg-gunuOrange p-1 rounded-full ml-1">
-            <IoLanguage className="text-gunuPink" />
-          </div>
-        </div> */}
       </div>
     </header>
   )

@@ -1,7 +1,5 @@
 import * as React from "react"
 
-import { useTranslation } from "gatsby-plugin-react-i18next"
-import Seo from "../components/seo"
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
 import Hero from "../components/main/Hero"
@@ -35,15 +33,5 @@ const IndexPage = () => (
     <Footer />
   </Layout>
 )
-
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => {
-  const { t } = useTranslation()
-  return <Seo title={t("Meet Ethereum")} />
-}
 
 export default IndexPage
