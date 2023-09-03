@@ -28,41 +28,53 @@ export default function Hero() {
       </div>
 
       {/* Bottom elements */}
-      <div className="flex flex-col md:flex-row  mx-16 mb-2 justify-center md:justify-between items-center">
-        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center">
-          <div className="text-xl md:text-5xl font-serif text-white">
+      <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
+        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20">
+          {/* Desktop date */}
+          <div className="text-3xl md:text-5xl font-serif text-white">
             13
             <br />
             {t("Nov")}
             <br />
             2023
           </div>
+          {/* Mobile date */}
           <div className="text-xl md:text-5xl font-serif text-white mx-4">
             —
           </div>
-          <Link to="https://devconnect.org" target="_blank" rel="noopener">
-            <img src={devconnect} className="h-8 md:h-10 invert" />
+          <Link
+            className="flex flex-row my-2 items-center"
+            to="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
+            target="_blank"
+            rel="noopener"
+          >
+            <FaLocationDot className="text-gunuOrange text-3xl mt-1 mr-2" />
+            <div className="text-white">
+              <div className="hidden md:block font-serif text-xl">
+                {t("Istanbul")} {t("Congress")} {t("Center")}
+              </div>
+              <div className="md:hidden font-serif text-xl">
+                {t("Istanbul")} <br />
+                {t("Congress")} <br />
+                {t("Center")}
+              </div>
+              <div className="text-xs hidden md:block">
+                Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
+              </div>
+            </div>
           </Link>
         </div>
         <Link
-          className="flex flex-row my-8"
-          to="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
+          to="https://devconnect.org"
           target="_blank"
           rel="noopener"
+          className="opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
         >
-          <FaLocationDot className="text-gunuOrange text-xl mt-1 mr-2" />
-          <div className="text-white">
-            <div className="font-serif text-xl">
-              <Trans>Istanbul Congress Center</Trans>
-            </div>
-            <div className="text-xs hidden md:block">
-              Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
-            </div>
-          </div>
+          <img src={devconnect} className="h-16 md:h-24" />
         </Link>
       </div>
       {/* Scroll sign */}
-      <div className="flex flex-row mb-16 md:mb-2 mx-16 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
+      <div className="flex flex-row mb-12 md:mb-2 mx-16 mt-4 md:mt-0 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
         <div className="text-sm">
           <BsArrowDownCircle />
         </div>

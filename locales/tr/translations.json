@@ -1,7 +1,9 @@
 {
   "Meet Ethereum": "Ethereum ile tanışın",
   "Nov": "Kasım",
-  "Istanbul Congress Center": "İstanbul Kongre Merkezi",
+  "Istanbul": "İstanbul",
+  "Congress": "Kongre",
+  "Center": "Merkezi",
   "learn-ethereum": "Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye <underline>Türkçe</underline> öğrenin!",
   "scroll": "Aşağı kaydırın",
   "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN",

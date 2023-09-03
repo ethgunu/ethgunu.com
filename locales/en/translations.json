@@ -1,7 +1,9 @@
 {
   "Meet Ethereum": "Meet Ethereum",
   "Nov": "Nov",
-  "Istanbul Congress Center": "Istanbul Congress Center",
+  "Istanbul": "Istanbul",
+  "Congress": "Congress",
+  "Center": "Center",
   "learn-ethereum": "Learn Ethereum and web3 from A to Z in <underline>Turkish</underline> from the experts in the heart of Istanbul!",
   "scroll": "Scroll to continue",
   "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S",
