@@ -52,7 +52,7 @@ export default function FAQ() {
       className="flex flex-col items-center justify-center py-12 bg-gradient-3"
       id="faq"
     >
-      <h3 className="text-2xl text-gray-600 my-6">{t("FAQ")}</h3>
+      <h3 className="text-4xl text-gray-800 font-serif my-6">{t("FAQ")}</h3>
       <div className="w-full px-12 max-w-[64rem]">
         {FAQItems.map((item, index) => (
           <FAQBox key={`faq-index`} question={item.q} answer={item.a} />
