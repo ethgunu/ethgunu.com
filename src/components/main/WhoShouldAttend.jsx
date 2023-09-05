@@ -55,48 +55,11 @@ export default function WhoShouldAttend() {
       className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2 relative overflow-hidden"
       id="whoShouldAttend"
     >
-      <h3 className="text-2xl text-gray-600 z-10">{t("Who should attend?")}</h3>
-      <div className="md:mt-10 px-4 md:px-12 max-w-[64rem] z-10">
-        <div className="flex flex-col md:flex-row items-center min-h-[150px]">
-          <BsArrowLeftCircle
-            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
-            onClick={handleLeftArrowClick}
-          />
-          <p className="text-2xl font-serif text-gray-800 md:mx-6">
-            <AnimatePresence
-              mode="wait"
-              onExitComplete={() => {
-                debug("ANIMATING EXIT")
-                setAnimating(false)
-              }}
-            >
-              {/* Break text into words and animate each */}
-              {shouldAttendObj[selectedOption].cta
-                .split(" ")
-                .map((word, index) => (
-                  <motion.span
-                    key={word + selectedOptionIndex + index}
-                    initial={{ opacity: 0, y: -100 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: 100 }}
-                    transition={{ delay: Math.random() * 0.2 }}
-                    whileHover={{
-                      fontSize: "30px",
-                      transition: { duration: 0.3 },
-                    }}
-                  >
-                    {word + " "}
-                  </motion.span>
-                ))}
-            </AnimatePresence>
-          </p>
-          <BsArrowRightCircle
-            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
-            onClick={handleRightArrowClick}
-          />
-        </div>
-        <div className="flex flex-col md:flex-row items-center justify-center md:mt-12 flex-wrap font-semibold text-lg text-gray-400">
+      <h3 className="text-3xl font-serif text-black z-10">
+        {t("Who should attend?")}
+      </h3>
+      <div className="mt-4 px-4 md:px-12 max-w-[64rem] z-10">
+        <div className="flex flex-col md:flex-row items-center justify-center flex-wrap font-semibold text-lg text-gray-400">
           {shouldAttendOptions.map((option, index) => (
             <motion.button
               key={`shouldAttendOption-button-${index}`}
@@ -116,13 +79,61 @@ export default function WhoShouldAttend() {
                     : "0px solid rgba(0, 0, 0, 1)",
               }}
               transition={{ duration: 0.3 }}
-              className={`mx-4 my-2 ${
+              className={`mx-8 my-2 ${
                 selectedOption === option ? "text-gray-800" : ""
               }`}
             >
               {shouldAttendObj[option].title}
             </motion.button>
           ))}
+        </div>
+        <h3 className="text-3xl font-serif text-black z-10 mt-12">
+          {t("What to expect?")}
+        </h3>
+        <div className="flex flex-col md:flex-row items-center min-h-[150px]">
+          <BsArrowLeftCircle
+            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
+            onClick={handleLeftArrowClick}
+          />
+          <p className="text-xl md:text-2xl text-gray-700 md:mx-6 ">
+            <AnimatePresence
+              mode="wait"
+              onExitComplete={() => {
+                debug("ANIMATING EXIT")
+                setAnimating(false)
+              }}
+            >
+              <ul>
+                {/* Break text into words and animate each */}
+                {shouldAttendObj[selectedOption].cta.map(
+                  (bulletItem, index) => (
+                    <motion.li className="mt-6 first:mt-2">
+                      {bulletItem.split(" ").map((word, index) => (
+                        <motion.span
+                          key={word + selectedOptionIndex + index}
+                          initial={{ opacity: 0, y: -100 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: 100 }}
+                          transition={{ delay: Math.random() * 0.2 }}
+                          whileHover={{
+                            fontSize: "30px",
+                            transition: { duration: 0.3 },
+                          }}
+                        >
+                          {word + " "}
+                        </motion.span>
+                      ))}
+                    </motion.li>
+                  )
+                )}
+              </ul>
+            </AnimatePresence>
+          </p>
+          <BsArrowRightCircle
+            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
+            onClick={handleRightArrowClick}
+          />
         </div>
       </div>
       <img

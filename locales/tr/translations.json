@@ -8,30 +8,55 @@
   "scroll": "Aşağı kaydırın",
   "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN",
   "Who should attend?": "Kimler katılmalı?",
+  "What to expect?": "Neden katılmalıyım?",
   "shouldAttendObj": {
     "students": {
       "title": "Öğrenciler",
-      "cta": "Ethereum ve web3'ün önemi hakkında bilgi edinin. Diğer öğrenciler ve birçok üniversite blokzincir kulüpleri ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Ethereum ve web3'ün gelecekteki yeri nedir, öğrenin.",
+        "Üniversite blokzincir kulüpleri ile tanışın.",
+        "Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin.",
+        "Web3 ekosistemindeki kariyer fırsatları neler?"
+      ]
     },
     "developers": {
       "title": "Yazılım Geliştiriciler",
-      "cta": "Merkezi olmayan uygulamalar ve akıllı sözleşmeler oluşturmayı keşfedin. Diğer geliştiriciler ve Ethereum topluluğu ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Merkezi olmayan uygulamalar ve akıllı sözleşmeler oluşturmayı keşfedin.",
+        " Diğer geliştiriciler ve Ethereum topluluğu ile tanışın.",
+        " Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      ]
     },
     "researchers": {
       "title": "Araştırmacılar",
-      "cta": "Ekosistem içindeki ilginç araştırma konularını keşfedin. Diğer araştırmacılar ve Ethereum topluluğu ile işbirliği yapın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Ekosistem içindeki ilginç araştırma konularını keşfedin.",
+        " Diğer araştırmacılar ve Ethereum topluluğu ile işbirliği yapın.",
+        " Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      ]
     },
     "finance": {
       "title": "Finans Profesyonelleri",
-      "cta": "Merkeziyetsiz finans (DeFi), uygulamaların mevcut durumu ve ekosistemin yönü hakkında bilgi edinin. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Merkeziyetsiz finans (DeFi), uygulamaların mevcut durumu ve ekosistemin yönü hakkında bilgi edinin.",
+        " Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      ]
     },
     "regulators": {
       "title": "Yasal Düzenleyiciler",
-      "cta": "Ethereum ekosistemi ve yasal çerçeveler hakkında bilgi edinin. Diğer düzenleyiciler ve Ethereum topluluğu ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Ethereum ekosistemi ve yasal çerçeveler hakkında bilgi edinin.",
+        " Diğer düzenleyiciler ve Ethereum topluluğu ile tanışın.",
+        " Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      ]
     },
     "anyone": {
       "title": "Meraklı Herkes!",
-      "cta": "Merkezi olmayan uygulamaların ve akıllı sözleşmelerin nasıl çalıştığını anlayın. Ethereum topluluğu ile işbirliği yapın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      "cta": [
+        "Merkezi olmayan uygulamaların ve akıllı sözleşmelerin nasıl çalıştığını anlayın.",
+        " Ethereum topluluğu ile işbirliği yapın.",
+        " Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+      ]
     }
   },
   "Speakers": "Konuşmacılar",

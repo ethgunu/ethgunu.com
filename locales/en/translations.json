@@ -8,30 +8,48 @@
   "scroll": "Scroll to continue",
   "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S",
   "Who should attend?": "Who should attend?",
+  "What to expect?": "What to expect?",
   "shouldAttendObj": {
     "students": {
       "title": "Students",
-      "cta": "Explore the importance of Ethereum and web3. Connect with fellow students and numerous university blockchain clubs."
+      "cta": [
+        "Explore the importance of Ethereum and web3.",
+        "Connect with fellow students and numerous university blockchain clubs."
+      ]
     },
     "developers": {
       "title": "Developers",
-      "cta": "Learn to create decentralized applications and smart contracts. Network with peers and the Ethereum community."
+      "cta": [
+        "Learn to create decentralized applications and smart contracts.",
+        " Network with peers and the Ethereum community."
+      ]
     },
     "researchers": {
       "title": "Researchers",
-      "cta": "Dive into interesting research topics in the ecosystem. Collaborate with fellow researchers and the Ethereum community."
+      "cta": [
+        "Dive into interesting research topics in the ecosystem.",
+        " Collaborate with fellow researchers and the Ethereum community."
+      ]
     },
     "finance": {
       "title": "Finance Professionals",
-      "cta": "Learn about decentralized finance (DeFi), the current state of applications,  and ecosystem trends. Connect with industry experts."
+      "cta": [
+        "Learn about decentralized finance (DeFi), the current state of applications,  and ecosystem trends.",
+        " Connect with industry experts."
+      ]
     },
     "regulators": {
       "title": "Regulators",
-      "cta": "Gain insights into the Ethereum ecosystem and the legal frameworks. Engage in meaningful discussions with regulators and the Ethereum community."
+      "cta": [
+        "Gain insights into the Ethereum ecosystem and the legal frameworks.",
+        " Engage in meaningful discussions with regulators and the Ethereum community."
+      ]
     },
     "anyone": {
       "title": "Anyone curious!",
-      "cta": "Connect with industry experts, listen to their career journeys, and explore the opportunities within the ecosystem!"
+      "cta": [
+        "Connect with industry experts, listen to their career journeys, and explore the opportunities within the ecosystem!"
+      ]
     }
   },
   "Speakers": "Speakers",
