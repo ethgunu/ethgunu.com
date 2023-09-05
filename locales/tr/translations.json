@@ -11,27 +11,27 @@
   "shouldAttendObj": {
     "students": {
       "title": "Öğrenciler",
-      "cta": "Öğrenciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Ethereum ve web3'ün önemi hakkında bilgi edinin. Diğer öğrenciler ve birçok üniversit blokzincir kulüpleri ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     },
     "developers": {
       "title": "Yazılım Geliştiriciler",
-      "cta": "Yazılım geliştiriciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Merkezi olmayan uygulamalar ve akıllı sözleşmeler oluşturmayı keşfedin. Diğer geliştiriciler ve Ethereum topluluğu ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     },
     "researchers": {
       "title": "Araştırmacılar",
-      "cta": "Araştırmacılar olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Ekosistem içindeki ilginç araştırma konularını keşfedin. Diğer araştırmacılar ve Ethereum topluluğu ile işbirliği yapın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     },
     "finance": {
       "title": "Finans Profesyonelleri",
-      "cta": "Finans profesyonelleri olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Merkeziyetsiz finans (DeFi), uygulamaların mevcut durumu ve ekosistemin yönü hakkında bilgi edinin. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     },
     "regulators": {
       "title": "Yasal Düzenleyiciler",
-      "cta": "Yasal düzenleyiciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Ethereum ekosistemi ve yasal çerçeveler hakkında bilgi edinin. Diğer düzenleyiciler ve Ethereum topluluğu ile tanışın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     },
     "anyone": {
       "title": "Meraklı Herkes!",
-      "cta": "Meraklı herkes olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": "Merkezi olmayan uygulamaların ve akıllı sözleşmelerin nasıl çalıştığını anlayın. Ethereum topluluğu ile işbirliği yapın. Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
     }
   },
   "Speakers": "Konuşmacılar",
