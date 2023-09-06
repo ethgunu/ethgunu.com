@@ -19,11 +19,7 @@ const Header = ({ siteTitle }) => {
   return (
     <header className="absolute top-0 flex flex-row justify-between items-center px-6 md:px-12 bg-gunuPink h-16 py-4 w-full drop-shadow-lg z-50">
       {/* Desktop Icon */}
-      <Link to="/" className="h-full hidden md:block">
-        <img src={logo} className="h-full" />
-      </Link>
-      {/* Mobile Icon */}
-      <Link to="/" className="h-full md:hidden">
+      <Link to="/" className="h-full">
         <img src={logo} className="h-full" />
       </Link>
 
@@ -81,7 +77,25 @@ const Header = ({ siteTitle }) => {
       {/* Mobile Nav */}
       {/* ********** */}
 
-      <div className="md:hidden">
+      <div className="flex flex-row items-center md:hidden">
+        <div className="flex text-gunuOrange items-center mr-4 text-lg">
+          <button
+            className={`mx-1 ${language === languages[1] ? "font-bold" : ""}`}
+          >
+            <Link to={originalPath} language={languages[1]}>
+              {languages[1].toUpperCase()}
+            </Link>
+          </button>
+          <div>|</div>
+          <button
+            className={`mx-1 ${language === languages[0] ? "font-bold" : ""}`}
+          >
+            <Link to={originalPath} language={languages[0]}>
+              {languages[0].toUpperCase()}
+            </Link>
+          </button>
+        </div>
+
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="text-gunuOrange text-2xl "
@@ -106,7 +120,7 @@ const Header = ({ siteTitle }) => {
                   <Trans>Speakers</Trans>
                 </Link>
               </nav>
-              <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 mt-4">
+              <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 my-4">
                 <a
                   href="https://twitter.com/eth_gunu"
                   target="_blank"
@@ -121,29 +135,6 @@ const Header = ({ siteTitle }) => {
                 >
                   <FaTelegram />
                 </a>
-              </div>
-              <div className="flex text-gunuOrange items-center p-4 mt-4 text-xl">
-                <div className="flex text-gunuOrange items-center">
-                  <button
-                    className={`mx-4 ${
-                      language === languages[1] ? "font-bold" : ""
-                    }`}
-                  >
-                    <Link to={originalPath} language={languages[1]}>
-                      {languages[1].toUpperCase()}
-                    </Link>
-                  </button>
-                  <div>|</div>
-                  <button
-                    className={`mx-4 ${
-                      language === languages[0] ? "font-bold" : ""
-                    }`}
-                  >
-                    <Link to={originalPath} language={languages[0]}>
-                      {languages[0].toUpperCase()}
-                    </Link>
-                  </button>
-                </div>{" "}
               </div>
             </motion.div>
           </AnimatePresence>

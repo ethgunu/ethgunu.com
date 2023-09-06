@@ -20,7 +20,7 @@ export default function Footer() {
           <h3 className="text-gunuLightBlue">{t("Venue")}</h3>
           <div className="mt-4">
             <h4 className="text-xl font-serif">
-              {t("Istanbul Congress Center")}
+              {t("Istanbul")} {t("Congress")} {t("Center")}
             </h4>
             <div className="text-sm text-gray-400 mt-2">
               Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
