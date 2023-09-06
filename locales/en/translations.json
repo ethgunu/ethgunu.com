@@ -88,6 +88,8 @@
       "a": "Tickets are not on sale yet. Please sign up for our mailing list to be notified when tickets go on sale."
     }
   ],
+  "Topics": "Topics",
+  "topicsArray": [],
   "copyright-text": "Trademarks and brands are the property of their respective owners.",
   "Sitemap": "Sitemap",
   "Code of Conduct": "Code of Conduct",
@@ -100,5 +102,6 @@
   "Newsletter": "Newsletter",
   "follow-newsletter": "Follow for updates about the event",
   "Contact": "Contact",
-  "until-event": "Until the event:"
+  "until-event": "Until the event:",
+  "and more": "and more"
 }

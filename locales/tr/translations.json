@@ -60,6 +60,26 @@
       ]
     }
   },
+  "Topics": "Konu Başlıkları",
+  "topicsArray": [
+    "Akıllı sözleşmeler",
+    "Merkeziyetsizlik",
+    "Merkeziyetsiz Finans (DeFi)",
+    "MEV",
+    "Cüzdanlar",
+    "Kripto ve İtibari Para Birimleri",
+    "Şifreleme",
+    "Gizlilik (Privacy)",
+    "Ölçeklenebilirlik",
+    "Sabit Paralar (Stable coins)",
+    "Sıfır Bilgi İspatı (Zero-knowledge Proof)",
+    "Kamu Malları (Public Goods)",
+    "İkinci Katman Teknolojileri",
+    "Self-custody",
+    "Sansüre dayanıklılık",
+    "Regülasyon",
+    "Dijital Kimlik"
+  ],
   "Speakers": "Konuşmacılar",
   "FAQ": "Sıkça Sorulan Sorular",
   "FAQItems": [
@@ -108,5 +128,6 @@
   "Newsletter": "E-posta Bülteni",
   "follow-newsletter": "Gelişmelerden haberdar olmak için takip edin",
   "Contact": "İletişim",
-  "until-event": "ETKİNLİĞİN BAŞLAMASINA:"
+  "until-event": "ETKİNLİĞİN BAŞLAMASINA:",
+  "and more": "ve daha fazlası"
 }

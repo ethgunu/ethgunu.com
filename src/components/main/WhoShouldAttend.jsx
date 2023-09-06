@@ -10,6 +10,7 @@ log.enabled = true
 export default function WhoShouldAttend() {
   const { t } = useTranslation()
   const shouldAttendObj = t("shouldAttendObj", { returnObjects: true })
+  const topicsArray = t("topicsArray", { returnObjects: true })
   const shouldAttendOptions = Object.keys(shouldAttendObj)
 
   const [animating, setAnimating] = useState(false)
@@ -135,6 +136,15 @@ export default function WhoShouldAttend() {
             onClick={handleRightArrowClick}
           />
         </div>
+        <h3 className="text-3xl font-serif text-black z-10 mt-12">
+          {t("Topics")}
+        </h3>
+        <ul className="flex flex-row flex-wrap gap-8 justify-center mt-4">
+          {topicsArray.map(topic => (
+            <li>{topic}</li>
+          ))}
+        </ul>
+        <div className="mt-8">...{t("and more")}!</div>
       </div>
       <img
         src={largeTile}
