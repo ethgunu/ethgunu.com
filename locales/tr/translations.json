@@ -13,42 +13,50 @@
     "students": {
       "title": "Öğrenciler",
       "cta": [
-        "Ethereum ve web3'ün gelecekteki yerini öğrenin.",
-        "Üniversite blokzincir kulüpleri ile tanışın ve web3 ekosistemindeki fırsatları keşfedin"
+        "Ethereum ve web3'ün gelecekteki yerini anlayın.",
+        "Üniversite blokzincir kulüpleri ile tanışın.",
+        "Sektör uzmanlarıyla tanışın ve kariyer yolculuklarını dinleyin.",
+        "Web3 alanındaki iş imkanlarını değerlendirin."
       ]
     },
     "developers": {
       "title": "Yazılım Geliştiriciler",
       "cta": [
-        "Merkezi olmayan uygulamalar ve akıllı sözleşmeler oluşturmayı öğrenin.",
-        "Endüstri uzmanlarıyla etkileşimde bulunun, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+        "Merkeziyetsiz uygulamalar ve akıllı sözleşmeler geliştirmeyi öğrenin.",
+        "Web3 geliştirici topluluğu ile tanışın.",
+        "Ethereum'un ve blokzincirlerin konu edindiği teknik problemleri keşfedin."
       ]
     },
     "researchers": {
       "title": "Araştırmacılar",
       "cta": [
-        "Ekosistem içindeki ilginç araştırma konularını öğrenin.",
-        "Diğer araştırmacılar ve Ethereum topluluğu ile tanışın."
+        "Blokzincirin ekonomik ve sosyolojik konulardaki etkisini keşfedin.",
+        "Ethereum'daki en güncel bilimsel gelişmeleri ve açık araştırma sorularını öğrenin."
       ]
     },
     "finance": {
       "title": "Finans Profesyonelleri",
       "cta": [
-        "Merkeziyetsiz finans (DeFi), uygulamaların mevcut durumu ve ekosistemin yönü hakkında bilgi edinin.",
-        "Endüstri uzmanlarıyla tanışın ve ekosistemdeki fırsatları keşfedin."
+        "Merkeziyetsiz finans (DeFi) uygulamalarının mevcut durumu ve ekosistemin yönü hakkında bilgi edinin.",
+        "Sabit para birimleri, borç verme ve türevler gibi DeFi uygulamalarının nasıl çalıştığını öğrenin.",
+        "Blokzincir teknolojisinin finansal potansiyeli ve sınırları ile tanışın.",
+        "Ethereum'un iç finansal modellerini ve ekonomisini keşfedin."
       ]
     },
     "regulators": {
       "title": "Yasal Düzenleyiciler",
       "cta": [
-        "Ethereum ekosistemi ve yasal çerçeveler hakkında bilgi edinin.",
-        "Diğer düzenleyiciler ve Ethereum topluluğu ile tanışın."
+        "Blokzincir teknolojilerinin Türkiye'deki mevcut durumunu ve sunduğu fırsatları keşfedin.",
+        "Web3 ve Ethereum'un siyaset, toplum ve ekonomi üzerindeki etkilerini tanıyın.",
+        "Dünya genelindeki blokzincir yasal çerçeveleri hakkında bilgi edinin."
       ]
     },
     "anyone": {
       "title": "Meraklı Herkes!",
       "cta": [
-        "Sektör uzmanlarıyla tanışın, kariyer yolculuklarını dinleyin ve ekosistemdeki fırsatları keşfedin."
+        "Ethereum ve kripto paralar nedir ve nasıl çalışırlar, kavrayın.",
+        "Blokzincir teknolojisinin gelecekteki etkilerini keşfedin.",
+        "Ethereum'un günlük hayatta nasıl kullanıldığına dair bilgi sahibi olun."
       ]
     }
   },
