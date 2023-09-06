@@ -29,14 +29,10 @@ function Speaker({ speaker }) {
             },
           },
         }}
-        style={{
-          marginRight: Math.random() * 0 + "px",
-          translateY: Math.random() * 0 + "px",
-        }}
         className="flex flex-col items-center max-w-4xl group"
       >
         <img
-          className="w-48 h-48 object-cover rounded-xl shadow-lg group-hover:shadow-2xl transition-shadow duration-300"
+          className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-xl shadow-lg group-hover:shadow-2xl transition-shadow duration-300"
           src={speaker.image}
           alt={speaker.name}
         />
@@ -67,7 +63,7 @@ export default function Speakers() {
       <h3 className="text-4xl text-gray-800 my-6 font-serif">
         {t("Speakers")}
       </h3>
-      <div className="px-12 max-w-[64rem] flex flex-row justify-center flex-wrap gap-12 mt-12">
+      <div className="px-4 md:px-12 max-w-[64rem] flex flex-row justify-center flex-wrap gap-6 md:gap-12 mt-12">
         {speakers.map((speaker, index) => (
           <Speaker key={`speaker-${index}`} speaker={speaker} />
         ))}
