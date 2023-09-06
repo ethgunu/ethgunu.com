@@ -10,18 +10,18 @@ export default function Hero() {
   const { t } = useTranslation()
   return (
     <section
-      className="flex flex-col justify-end h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40% relative"
+      className="flex flex-col justify-end h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-50% md:to-40% relative"
       id="hero"
     >
       {/* Large ETHGunu */}
-      <div className="flex flex-col items-center justify-center absolute inset-0 mt-[1.75rem] md:mt-[2.5rem] xl:mt-[3rem]">
+      <div className="flex flex-col items-center justify-center h-full absolute inset-0">
         <img
           src={logo}
           alt="logo"
           className="px-4 md:px-12 lg:w-[800px] lg:px-0"
         />
         <div className="flex flex-col items-center">
-          <h1 className="text-xl md:text-4xl xl:text-5xl text-gunuOrange mt-2">
+          <h1 className="text-2xl md:text-5xl xl:text-6xl text-gunuOrange mt-2">
             <Trans>Meet Ethereum</Trans>
           </h1>
         </div>
@@ -29,9 +29,9 @@ export default function Hero() {
 
       {/* Bottom elements */}
       <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
-        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20">
+        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
           {/* Desktop date */}
-          <div className="text-3xl md:text-5xl font-serif text-white">
+          <div className="text-xl md:text-5xl font-serif text-white">
             13
             <br />
             {t("Nov")}
@@ -48,12 +48,12 @@ export default function Hero() {
             target="_blank"
             rel="noopener"
           >
-            <FaLocationDot className="text-gunuOrange text-3xl mt-1 mr-2" />
+            <FaLocationDot className="text-gunuOrange text-2xl mt-1 mr-2" />
             <div className="text-white">
               <div className="hidden md:block font-serif text-xl">
                 {t("Istanbul")} {t("Congress")} {t("Center")}
               </div>
-              <div className="md:hidden font-serif text-xl">
+              <div className="md:hidden font-serif text-lg">
                 {t("Istanbul")} <br />
                 {t("Congress")} <br />
                 {t("Center")}

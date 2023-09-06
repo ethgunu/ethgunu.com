@@ -63,7 +63,7 @@ module.exports = {
           900: "#050f33",
         },
         gunuPinkLighter: "#FFE1DD",
-        gunuPink: "#DBB7B7",
+        gunuPink: "#FFE1DD",
         gunuOrange: "#FF4E26",
         gunuLightBlue: "#71D9FF",
         gunuTeal: "#9FFFFF",
