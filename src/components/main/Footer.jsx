@@ -62,7 +62,11 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start text-gunuLightBlue mt-8">
             <h3>{t("Socials")}</h3>
             <div className="flex flex-row gap-2 mt-2 text-gray-300">
-              <a>
+              <a
+                href="https://twitter.com/eth_gunu"
+                target="_blank"
+                rel="noopener"
+              >
                 <FaTwitter className="text-xl" />
               </a>
               <a>

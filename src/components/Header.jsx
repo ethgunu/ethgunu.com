@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => {
             <Trans>Speakers</Trans>
           </Link>
         </nav>
-        <div className="flex flex-row items-center mx-8 space-x-2 text-gunuNavy">
+        <div className="flex flex-row items-center mx-8 space-x-2 text-xl text-gunuNavy">
           <a
             href="https://twitter.com/eth_gunu"
             target="_blank"
