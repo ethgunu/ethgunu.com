@@ -83,5 +83,8 @@
   "Newsletter": "Newsletter",
   "follow-newsletter": "Follow for updates about the event",
   "Contact": "Contact",
-  "until-event": "Until the event:"
+  "until-event": "Until the event:",
+  "email-success": "Thank you!",
+  "email-error": "An error occured.",
+  "email-cta": "Subscribe to our newsletter"
 }

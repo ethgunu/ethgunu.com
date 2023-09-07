@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
 import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
+import EmailForm from "../EmailForm"
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -24,6 +25,10 @@ export default function Hero() {
           <h1 className="text-2xl md:text-5xl xl:text-6xl text-gunuOrange mt-2">
             <Trans>Meet Ethereum</Trans>
           </h1>
+        </div>
+        <div className="flex flex-col items-center mt-2 text-gray-700">
+          <div className="text-xs md:text-sm">{t("email-cta")}</div>
+          <EmailForm className="mt-1" />
         </div>
       </div>
 
@@ -68,7 +73,7 @@ export default function Hero() {
           rel="noopener"
           className="opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
         >
-          <img src={devconnect} className="h-16 md:h-24" />
+          <img src={devconnect} className="h-10 md:h-24" />
         </Link>
       </div>
       {/* Scroll sign */}

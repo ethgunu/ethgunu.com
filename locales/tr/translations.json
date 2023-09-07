@@ -80,8 +80,11 @@
   "Socials": "Sosyal Medya",
   "Venue": "Etkinlik Alanı",
   "Get Directions": "Yol Tarifi",
-  "Newsletter": "E-posta Bülteni",
+  "Newsletter": "Bülten",
   "follow-newsletter": "Gelişmelerden haberdar olmak için takip edin",
   "Contact": "İletişim",
-  "until-event": "ETKİNLİĞİN BAŞLAMASINA:"
+  "until-event": "ETKİNLİĞİN BAŞLAMASINA:",
+  "email-success": "Teşekkürler!",
+  "email-error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+  "email-cta": "E-posta bültenimize kaydolun"
 }

@@ -7,10 +7,12 @@ import debug from "debug"
 import { IoLanguage } from "react-icons/io5"
 import { AiOutlineMenu } from "react-icons/ai"
 import { motion, AnimatePresence } from "framer-motion"
+import { HiOutlineExternalLink } from "react-icons/hi"
 
 const log = debug("Header")
-log.enabled = true
-
+if (process.env.NODE_ENV === "development") {
+  log.enabled = true
+}
 const Header = ({ siteTitle }) => {
   const { languages, originalPath, language } = useI18next()
   log("language", language)
@@ -34,6 +36,15 @@ const Header = ({ siteTitle }) => {
           </Link>
           <Link to="#faq">
             <Trans>FAQ</Trans>
+          </Link>
+          <Link
+            to="https://ethgunu.substack.com"
+            target="_blank"
+            rel="noopener"
+            className="flex items-center"
+          >
+            <Trans>Newsletter</Trans>
+            <HiOutlineExternalLink className="inline-block ml-1" />
           </Link>
         </nav>
         <div className="flex flex-row items-center mx-8 space-x-2 text-xl text-gunuNavy">
@@ -124,6 +135,15 @@ const Header = ({ siteTitle }) => {
                 </Link>
                 <Link to="#faq">
                   <Trans>FAQ</Trans>
+                </Link>
+                <Link
+                  to="https://ethgunu.substack.com"
+                  target="_blank"
+                  rel="noopener"
+                  className="flex items-center"
+                >
+                  <Trans>Newsletter</Trans>
+                  <HiOutlineExternalLink className="inline-block ml-1" />
                 </Link>
               </nav>
               <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 my-4">

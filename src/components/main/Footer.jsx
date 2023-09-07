@@ -4,6 +4,7 @@ import logo from "../../images/ethgunu-dark-horizontal.png"
 import { FaTelegram, FaTwitter } from "react-icons/fa"
 import efLogo from "../../images/ethereum-foundation-white.png"
 import devconnect from "../../images/Devconnect.svg"
+import EmailForm from "../EmailForm"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -18,7 +19,7 @@ export default function Footer() {
         {/* Venue */}
         <div className="mb-8">
           <h3 className="text-gunuLightBlue">{t("Venue")}</h3>
-          <div className="mt-4">
+          <div className="">
             <h4 className="text-xl font-serif">
               {t("Istanbul")} {t("Congress")} {t("Center")}
             </h4>
@@ -36,28 +37,16 @@ export default function Footer() {
           </div>
         </div>
         {/* Newsletter  */}
-        <div>
+        <div className="flex flex-col items-center md:items-start">
           <h3 className="text-gunuLightBlue">{t("Newsletter")}</h3>
-          <div className="mt-4">
-            <div className="text-sm text-gray-400">
-              {t("follow-newsletter")}
-            </div>
-            {/* <iframe
-              src="https://ethgunu.substack.com/embed"
-              width="400"
-              height="80"
-              style={{ background: "#36364c" }}
-              frameborder="0"
-            ></iframe> */}
-          </div>
+          <div className="text-sm text-gray-400">{t("follow-newsletter")}</div>
+          <EmailForm isDark={true} className="mt-2" />
         </div>
         {/* Contact */}
         <div className="my-8 md:my-0">
           <h3 className="text-gunuLightBlue">{t("Contact")}</h3>
-          <div className="mt-4">
-            <div className="text-sm text-gray-400">
-              <a href="mailto:info@ethgunu.com">info@ethgunu.com</a>
-            </div>
+          <div className="text-sm text-gray-400">
+            <a href="mailto:info@ethgunu.com">info@ethgunu.com</a>
           </div>
           <div className="flex flex-col items-center md:items-start text-gunuLightBlue mt-8">
             <h3>{t("Socials")}</h3>
