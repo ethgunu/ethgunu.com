@@ -8,7 +8,7 @@ const FAQBox = ({ question, answer, key }) => {
 
   return (
     <div
-      className={`flex flex-col w-full px-6 py-4 ml-2 ${
+      className={`flex flex-col w-full px-6 py-4 ${
         isOpen ? "bg-gunuDark filter brightness-125" : "bg-gunuDark"
       } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 cursor-pointer`}
       onClick={() => setIsOpen(currIsOpen => !currIsOpen)}

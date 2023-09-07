@@ -55,13 +55,17 @@ export default function WhoShouldAttend() {
       className="flex flex-col items-center text-center justify-center py-12 bg-gradient-2 relative overflow-hidden"
       id="whoShouldAttend"
     >
-      <h3 className="text-2xl text-gray-600 z-10">{t("Who should attend?")}</h3>
+      <h3 className="text-2xl text-gray-600 z-10 mb-4 ">
+        {t("Who should attend?")}
+      </h3>
       <div className="md:mt-10 px-4 md:px-12 max-w-[64rem] z-10">
         <div className="flex flex-col md:flex-row items-center min-h-[150px]">
-          <BsArrowLeftCircle
-            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
-            onClick={handleLeftArrowClick}
-          />
+          <button className="hidden md:block">
+            <BsArrowLeftCircle
+              className="box-content py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
+              onClick={handleLeftArrowClick}
+            />
+          </button>
           <p className="text-2xl font-serif text-gray-800 md:mx-6">
             <AnimatePresence
               mode="wait"
@@ -91,10 +95,20 @@ export default function WhoShouldAttend() {
                 ))}
             </AnimatePresence>
           </p>
-          <BsArrowRightCircle
-            className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
-            onClick={handleRightArrowClick}
-          />
+          <div className="flex flex-row gap-4">
+            <button className="md:hidden">
+              <BsArrowLeftCircle
+                className="box-content py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
+                onClick={handleLeftArrowClick}
+              />
+            </button>
+            <button>
+              <BsArrowRightCircle
+                className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
+                onClick={handleRightArrowClick}
+              />
+            </button>
+          </div>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center md:mt-12 flex-wrap font-semibold text-lg text-gray-400">
           {shouldAttendOptions.map((option, index) => (

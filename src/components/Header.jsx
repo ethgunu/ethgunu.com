@@ -106,11 +106,11 @@ const Header = ({ siteTitle }) => {
           <AnimatePresence>
             <motion.div
               key={`mobile-menu`}
-              initial={{ height: 0, opacity: 0, scale: 0.8 }}
-              animate={{ height: "auto", opacity: 1, scale: 1 }}
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: "auto", opacity: 1 }}
               transition={{ duration: 0.8, ease: [0, 0.62, 0.23, 0.98] }}
-              exit={{ height: 0, opacity: 0, scale: 0.8 }}
-              className="absolute top-16 left-0 w-full bg-gunuPink z-10 flex flex-col items-center text-center shadow-2xl"
+              exit={{ height: 0, opacity: 0 }}
+              className="absolute top-16 left-0 w-full bg-gunuPink z-10 flex flex-col items-center text-center shadow-2xl overflow-hidden"
             >
               <nav className="flex flex-col p-4 gap-6 text-gunuOrange uppercase text-lg ">
                 <Link to="#whoShouldAttend">

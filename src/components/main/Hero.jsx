@@ -31,15 +31,17 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
         <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
           {/* Desktop date */}
-          <div className="text-xl md:text-5xl font-serif text-white">
+          <div className="text-lg md:text-5xl font-serif text-white">
             13
-            <br />
+            <span className="md:hidden"> </span>
+            <br className="hidden md:block" />
             {t("Nov")}
-            <br />
+            <span className="md:hidden"> </span>
+            <br className="hidden md:block" />
             2023
           </div>
           {/* Mobile date */}
-          <div className="text-xl md:text-5xl font-serif text-white mx-4">
+          <div className="hidden md:block text-xl md:text-5xl font-serif text-white mx-4">
             —
           </div>
           <Link
@@ -48,16 +50,12 @@ export default function Hero() {
             target="_blank"
             rel="noopener"
           >
-            <FaLocationDot className="text-gunuOrange text-2xl mt-1 mr-2" />
+            <FaLocationDot className="text-gunuOrange text-base md:text-2xl mt-1 mr-2" />
             <div className="text-white">
-              <div className="hidden md:block font-serif text-xl">
+              <div className=" font-serif text-lg md:text-xl">
                 {t("Istanbul")} {t("Congress")} {t("Center")}
               </div>
-              <div className="md:hidden font-serif text-lg">
-                {t("Istanbul")} <br />
-                {t("Congress")} <br />
-                {t("Center")}
-              </div>
+
               <div className="text-xs hidden md:block">
                 Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
               </div>
