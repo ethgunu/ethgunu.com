@@ -35,7 +35,8 @@
     }
   },
   "Speakers": "Konuşmacılar",
-  "FAQ": "Sıkça Sorulan Sorular",
+  "FAQ": "SSS",
+  "FAQ-long": "Sıkça Sorulan Sorular",
   "FAQItems": [
     {
       "q": "Devconnect nedir?",

@@ -35,7 +35,8 @@
     }
   },
   "Speakers": "Speakers",
-  "FAQ": "Freqently Asked Questions",
+  "FAQ": "FAQ",
+  "FAQ-long": "Freqently Asked Questions",
   "FAQItems": [
     {
       "q": "What is Devconnect?",

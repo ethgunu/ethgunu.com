@@ -32,6 +32,9 @@ const Header = ({ siteTitle }) => {
           <Link to="#speakers">
             <Trans>Speakers</Trans>
           </Link>
+          <Link to="#faq">
+            <Trans>FAQ</Trans>
+          </Link>
         </nav>
         <div className="flex flex-row items-center mx-8 space-x-2 text-xl text-gunuNavy">
           <a
@@ -118,6 +121,9 @@ const Header = ({ siteTitle }) => {
                 </Link>
                 <Link to="#speakers">
                   <Trans>Speakers</Trans>
+                </Link>
+                <Link to="#faq">
+                  <Trans>FAQ</Trans>
                 </Link>
               </nav>
               <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 my-4">

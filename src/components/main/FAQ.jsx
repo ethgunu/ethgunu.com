@@ -53,7 +53,7 @@ export default function FAQ() {
       id="faq"
     >
       <h3 className="text-4xl text-gray-800 font-serif my-6 text-center">
-        {t("FAQ")}
+        {t("FAQ-long")}
       </h3>
       <div className="w-full max-w-[64rem]">
         {FAQItems.map((item, index) => (
