@@ -116,14 +116,18 @@ const Header = ({ siteTitle }) => {
         >
           <AiOutlineMenu />
         </button>
-        {mobileMenuOpen && (
+        {
           <AnimatePresence>
             <motion.div
               key={`mobile-menu`}
               initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
+              animate={mobileMenuOpen ? "open" : "closed"}
               transition={{ duration: 0.8, ease: [0, 0.62, 0.23, 0.98] }}
-              exit={{ height: 0, opacity: 0 }}
+              variants={{
+                open: { opacity: 1, height: "auto" },
+                closed: { opacity: 0, height: 0 },
+              }}
+              exit={{ height: 0, opacity: 1 }}
               className="absolute top-16 left-0 w-full bg-gunuPink z-10 flex flex-col items-center text-center shadow-2xl overflow-hidden"
             >
               <nav className="flex flex-col p-4 gap-6 text-gunuOrange uppercase text-lg ">
@@ -140,10 +144,10 @@ const Header = ({ siteTitle }) => {
                   to="https://ethgunu.substack.com"
                   target="_blank"
                   rel="noopener"
-                  className="flex items-center"
+                  className="flex items-center text-center justify-center"
                 >
                   <Trans>Newsletter</Trans>
-                  <HiOutlineExternalLink className="inline-block ml-1" />
+                  <HiOutlineExternalLink className="ml-1" />
                 </Link>
               </nav>
               <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 my-4">
@@ -164,7 +168,7 @@ const Header = ({ siteTitle }) => {
               </div>
             </motion.div>
           </AnimatePresence>
-        )}
+        }
       </div>
     </header>
   )
