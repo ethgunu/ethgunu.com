@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
 import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
-import EmailForm from "../EmailForm"
+import { GiTicket } from "react-icons/gi"
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -26,10 +26,15 @@ export default function Hero() {
             <Trans>Meet Ethereum</Trans>
           </h1>
         </div>
-        <div className="flex flex-col items-center mt-2 text-gray-700">
-          <div className="text-xs md:text-sm">{t("email-cta")}</div>
-          <EmailForm className="mt-1" />
-        </div>
+        <Link
+          className="flex flex-row mt-4 md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
+          to="https://example.com"
+          target="_blank"
+          rel="noopener"
+        >
+          <GiTicket className="mr-1 text-xl" />
+          {t("get-tickets")}
+        </Link>
       </div>
 
       {/* Bottom elements */}
