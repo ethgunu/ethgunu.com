@@ -94,6 +94,10 @@
     {
       "q": "When are tickets going on sale?",
       "a": "Tickets are not on sale yet. Please sign up for our mailing list to be notified when tickets go on sale."
+    },
+    {
+      "q": "Will the presentations and workshops be recorded and available after the event?",
+      "a": "Yes, all presentations and workshops will be recorded and made available online after the event."
     }
   ],
   "Topics": "Topics",

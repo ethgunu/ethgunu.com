@@ -114,6 +114,10 @@
     {
       "q": "Biletler ne zaman satışa çıkacak?",
       "a": "Biletler henüz satışa çıkmadı. Biletlerin satışa çıkmasıyla ilgili güncellemeleri almak için lütfen e-posta listemize kaydolun."
+    },
+    {
+      "q": "Etkinlik kaydedilecek mi?",
+      "a": "Evet, etkinlikteki tüm sunumlar ve atölyeler kaydedilerek sonrasında çevrimiçi olarak paylaşılacaktır."
     }
   ],
   "copyright-text": "Her hakkı saklıdır",
