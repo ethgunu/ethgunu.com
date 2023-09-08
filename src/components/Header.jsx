@@ -57,7 +57,7 @@ const Header = ({ siteTitle }) => {
           </a>
 
           <a
-            href="https://telegram.org"
+            href="https://t.me/ethgunu"
             target="_blank"
             rel="noopener noreferrer"
           >
