@@ -65,7 +65,7 @@
   "FAQItems": [
     {
       "q": "What is Devconnect?",
-      "a": "Devcon is the Ethereum Foundation’s annual conference, where we educate and empower our community to build decentralized applications, and bring Ethereum protocols, tools, and culture to the world. This year, we are hosting a series of Devcon events around the world, and we are excited to bring Devcon to Turkey for the first time!"
+      "a": "Devconnect is a week-long gathering of independent Ethereum events. Ethereum builders, researchers, and the community come together to learn, share, and collaborate. This year, it's happening in Istanbul, Türkiye, from November 13 to November 19."
     },
     {
       "q": "What is Ethereum?",
@@ -73,7 +73,7 @@
     },
     {
       "q": "What is ETHGünü?",
-      "a": "ETHGünü is a one-day event that will introduce Ethereum and web3 to the Turkish community. The event will feature talks and workshops from Ethereum experts, and will be a great opportunity to connect with the Ethereum community in Turkey."
+      "a": "ETHGünü is a one-day event that will introduce Ethereum and web3 to the Turkish community. The event will feature talks and workshops from Ethereum experts, and will be a great opportunity to connect with the Ethereum community. The event will take place on 13 November at Istanbul Congress Center."
     },
     {
       "q": "What am I goint to learn at ETHGünü?",
@@ -88,8 +88,8 @@
       "a": "The event will be mostly in Turkish."
     },
     {
-      "q": "Will there be translation?",
-      "a": "Yes, there will be simulataneous translation from Turkish to English, and vice versa"
+      "q": "Will there be translations?",
+      "a": "Yes, there will be simulataneous translations from Turkish to English, and vice versa"
     },
     {
       "q": "When are tickets going on sale?",
