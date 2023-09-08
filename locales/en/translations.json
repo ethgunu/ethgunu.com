@@ -13,42 +13,49 @@
     "students": {
       "title": "Students",
       "cta": [
-        "Explore the importance of Ethereum and web3.",
-        "Connect with fellow students and numerous university blockchain clubs."
+        "Understand Ethereum and web3's place in the future.",
+        "Get to know about university blockchain clubs.",
+        "Meet experts in the sector and listen to their career journey.",
+        "Find out the job opportunites in web3."
       ]
     },
     "developers": {
       "title": "Developers",
       "cta": [
-        "Learn to create decentralized applications and smart contracts.",
-        " Network with peers and the Ethereum community."
+        "Learn how to develop decentralized applications and smart contracts.",
+        "Meet the web3 developer community.",
+        "Discover the technical problems Ethereum and blockchains trying to solve."
       ]
     },
     "researchers": {
       "title": "Researchers",
       "cta": [
-        "Dive into interesting research topics in the ecosystem.",
-        " Collaborate with fellow researchers and the Ethereum community."
+        "Explore the economical and sociological impact of blockchains.",
+        "Get to know about the open research questions and the latest scientific developments in Ethereum."
       ]
     },
     "finance": {
       "title": "Finance Professionals",
       "cta": [
-        "Learn about decentralized finance (DeFi), the current state of applications,  and ecosystem trends.",
-        " Connect with industry experts."
+        "Get informed about the outlook of the Decentralized Finance (DeFi) applications, and where they are heading to.",
+        "Figure out how DeFi applications such as stablecoins, lending, and derivatives work.",
+        "Discover Ethereum's inner financial and economical models."
       ]
     },
     "regulators": {
       "title": "Regulators",
       "cta": [
-        "Gain insights into the Ethereum ecosystem and the legal frameworks.",
-        " Engage in meaningful discussions with regulators and the Ethereum community."
+        "Identify the current status of blockchain technologies in Türkiye, and the opportunities it presents.",
+        "Learn the impact of Ethereum and web3 on politics, society, and economics.",
+        "Get informed about the related regulatory frameworks across the world."
       ]
     },
     "anyone": {
-      "title": "Anyone curious!",
+      "title": "Anyone Curious!",
       "cta": [
-        "Connect with industry experts, listen to their career journeys, and explore the opportunities within the ecosystem!"
+        "Get a grasp of what Ethereum and cryptocurrencies are and how they work.",
+        "Find out the future significance of blockchain technology.",
+        "Discover how Ethereum is used in daily life."
       ]
     }
   },
