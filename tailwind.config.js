@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme")
 module.exports = {
+  darkMode: "class",
+
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
@@ -63,7 +65,7 @@ module.exports = {
           900: "#050f33",
         },
         gunuPinkLighter: "#FFE1DD",
-        gunuPink: "#DBB7B7",
+        gunuPink: "#FFE1DD",
         gunuOrange: "#FF4E26",
         gunuLightBlue: "#71D9FF",
         gunuTeal: "#9FFFFF",

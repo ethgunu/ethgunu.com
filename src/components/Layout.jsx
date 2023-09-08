@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "./Header"
 import { Helmet } from "react-helmet"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 import Seo from "./seo"
 
 const Layout = ({ children }) => {

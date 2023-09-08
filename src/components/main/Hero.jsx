@@ -5,41 +5,48 @@ import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
 import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
+import EmailForm from "../EmailForm"
 
 export default function Hero() {
   const { t } = useTranslation()
   return (
     <section
-      className="flex flex-col justify-end h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-40% relative"
+      className="flex flex-col justify-end h-screen min-w-screen bg-gradient-to-t from-gunuNavy from-0% to-50% md:to-40% relative"
       id="hero"
     >
       {/* Large ETHGunu */}
-      <div className="flex flex-col items-center justify-center absolute inset-0 mt-[1.75rem] md:mt-[2.5rem] xl:mt-[3rem]">
+      <div className="flex flex-col items-center justify-center h-full absolute inset-0">
         <img
           src={logo}
           alt="logo"
           className="px-4 md:px-12 lg:w-[800px] lg:px-0"
         />
         <div className="flex flex-col items-center">
-          <h1 className="text-xl md:text-4xl xl:text-5xl text-gunuOrange mt-2">
+          <h1 className="text-2xl md:text-5xl xl:text-6xl text-gunuOrange mt-2">
             <Trans>Meet Ethereum</Trans>
           </h1>
+        </div>
+        <div className="flex flex-col items-center mt-2 text-gray-700">
+          <div className="text-xs md:text-sm">{t("email-cta")}</div>
+          <EmailForm className="mt-1" />
         </div>
       </div>
 
       {/* Bottom elements */}
       <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
-        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20">
+        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
           {/* Desktop date */}
-          <div className="text-3xl md:text-5xl font-serif text-white">
+          <div className="text-lg md:text-5xl font-serif text-white">
             13
-            <br />
+            <span className="md:hidden"> </span>
+            <br className="hidden md:block" />
             {t("Nov")}
-            <br />
+            <span className="md:hidden"> </span>
+            <br className="hidden md:block" />
             2023
           </div>
           {/* Mobile date */}
-          <div className="text-xl md:text-5xl font-serif text-white mx-4">
+          <div className="hidden md:block text-xl md:text-5xl font-serif text-white mx-4">
             —
           </div>
           <Link
@@ -48,16 +55,12 @@ export default function Hero() {
             target="_blank"
             rel="noopener"
           >
-            <FaLocationDot className="text-gunuOrange text-3xl mt-1 mr-2" />
+            <FaLocationDot className="text-gunuOrange text-base md:text-2xl mt-1 mr-2" />
             <div className="text-white">
-              <div className="hidden md:block font-serif text-xl">
+              <div className=" font-serif text-lg md:text-xl">
                 {t("Istanbul")} {t("Congress")} {t("Center")}
               </div>
-              <div className="md:hidden font-serif text-xl">
-                {t("Istanbul")} <br />
-                {t("Congress")} <br />
-                {t("Center")}
-              </div>
+
               <div className="text-xs hidden md:block">
                 Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
               </div>
@@ -70,7 +73,7 @@ export default function Hero() {
           rel="noopener"
           className="opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
         >
-          <img src={devconnect} className="h-16 md:h-24" />
+          <img src={devconnect} className="h-10 md:h-24" />
         </Link>
       </div>
       {/* Scroll sign */}

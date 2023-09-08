@@ -4,32 +4,51 @@ import speakers from "./speakers"
 import "./Speaker.css"
 import { FaTwitter } from "react-icons/fa"
 import silhouette from "./silhouette.png"
+import { motion, useScroll } from "framer-motion"
 
 function Speaker({ speaker }) {
   return (
-    <div className="hexagon cursor-pointer relative">
-      <img
-        className="absolute inset-0 w-full h-full"
-        src={speaker.image}
-        alt={speaker.name}
-      />
-      <a href={speaker.twitter} target="_blank" rel="noreferrer">
-        <div className="absolute inset-0 flex items-center justify-center bg-gunuNavy-100 bg-opacity-80 text-white p-2 hover:bg-transparent transition-all duration-300 group">
-          <div className="flex flex-1 flex-col h-full w-full items-center justify-between text-gunuNavy-600 font-serif text-3xl text-center group-hover:opacity-0 transition-all duration-300 group-hover:hidden px-12">
-            <div className="flex-grow"></div>
-            <div>{speaker.name}</div>
-            <div className="flex-grow">
-              <div className="text-sm text-gray-600 font-sans">
-                {speaker.organization}
-              </div>
-            </div>
-          </div>
-          <div className="text-gunuNavy-50 text-4xl opacity-0 hidden group-hover:flex group-hover:opacity-100 transition-all duration-300">
-            <FaTwitter className="" />
+    <a href={speaker.twitter} target="_blank" rel="noreferrer">
+      <motion.div
+        initial={{ y: 0 }}
+        animate={{
+          y: ["-3%", "3%", "-3%"],
+          x: ["-3%", "3%", "-3%"],
+          transition: {
+            y: {
+              duration: 10,
+              ease: "easeInOut",
+              delay: Math.random() * 10,
+              repeat: Infinity,
+            },
+            x: {
+              duration: 10,
+              ease: "easeInOut",
+              delay: Math.random() * 10,
+              repeat: Infinity,
+            },
+          },
+        }}
+        className="flex flex-col items-center max-w-4xl group"
+      >
+        <img
+          className="w-32 h-32 md:w-48 md:h-48 object-cover rounded-xl shadow-lg group-hover:shadow-2xl transition-shadow duration-300"
+          src={speaker.image}
+          alt={speaker.name}
+        />
+        <div className="text-lg text-gray-700 group-hover:text-gunuNavy transition-colors duration-300">
+          {speaker.name}
+        </div>
+        <div className="flex-grow">
+          <div className="text-sm text-gray-500 group-hover:text-gunuNavy transition-colors duration-300 font-sans">
+            {speaker.organization}
           </div>
         </div>
-      </a>
-    </div>
+        <div className="text-lg text-gray-500 group-hover:text-gunuNavy transition-colors duration-300">
+          <FaTwitter className="" />
+        </div>
+      </motion.div>
+    </a>
   )
 }
 
@@ -38,16 +57,16 @@ export default function Speakers() {
 
   return (
     <section
-      className="flex flex-col items-center justify-center pt-12 bg-gradient-2"
+      className="flex flex-col items-center  pt-12 bg-gradient-2"
       id="speakers"
     >
-      <h3 className="text-2xl text-gray-600 my-6">{t("Speakers")}</h3>
-      <div className="hexagon-main">
-        <div className="hexagon-container px-12 max-w-[64rem] flex flex-col justify-center sm:block">
-          {speakers.map((speaker, index) => (
-            <Speaker key={`speaker-${index}`} speaker={speaker} />
-          ))}
-        </div>
+      <h3 className="text-4xl text-gray-800 my-6 font-serif">
+        {t("Speakers")}
+      </h3>
+      <div className="px-4 md:px-12 max-w-[64rem] flex flex-row justify-center flex-wrap gap-6 md:gap-12 mt-12">
+        {speakers.map((speaker, index) => (
+          <Speaker key={`speaker-${index}`} speaker={speaker} />
+        ))}
       </div>
       <div className="mt-12 w-full">
         <img src={silhouette} alt="silhouette" className="w-full" />

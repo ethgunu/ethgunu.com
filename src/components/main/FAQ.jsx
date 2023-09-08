@@ -8,7 +8,7 @@ const FAQBox = ({ question, answer, key }) => {
 
   return (
     <div
-      className={`flex flex-col w-full px-6 py-4 ml-2 ${
+      className={`flex flex-col w-full px-6 py-4 ${
         isOpen ? "bg-gunuDark filter brightness-125" : "bg-gunuDark"
       } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 cursor-pointer`}
       onClick={() => setIsOpen(currIsOpen => !currIsOpen)}
@@ -49,11 +49,13 @@ export default function FAQ() {
 
   return (
     <section
-      className="flex flex-col items-center justify-center py-12 bg-gradient-3"
+      className="flex flex-col items-center justify-center py-12 bg-gradient-3 px-4"
       id="faq"
     >
-      <h3 className="text-2xl text-gray-600 my-6">{t("FAQ")}</h3>
-      <div className="w-full px-12 max-w-[64rem]">
+      <h3 className="text-4xl text-gray-800 font-serif my-6 text-center">
+        {t("FAQ-long")}
+      </h3>
+      <div className="w-full max-w-[64rem]">
         {FAQItems.map((item, index) => (
           <FAQBox key={`faq-index`} question={item.q} answer={item.a} />
         ))}

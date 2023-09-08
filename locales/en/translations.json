@@ -53,7 +53,8 @@
     }
   },
   "Speakers": "Speakers",
-  "FAQ": "Freqently Asked Questions",
+  "FAQ": "FAQ",
+  "FAQ-long": "Freqently Asked Questions",
   "FAQItems": [
     {
       "q": "What is Devconnect?",
@@ -103,5 +104,8 @@
   "follow-newsletter": "Follow for updates about the event",
   "Contact": "Contact",
   "until-event": "Until the event:",
-  "and more": "and more"
+  "and more": "and more",
+  "email-success": "Thank you!",
+  "email-error": "An error occured.",
+  "email-cta": "Subscribe to our newsletter"
 }

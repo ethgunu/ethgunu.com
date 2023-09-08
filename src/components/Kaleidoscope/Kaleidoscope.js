@@ -93,11 +93,12 @@ class Shape {
     // this.height = 10
     this.rotation = Math.random() * TAU
     // this.rotation = 10
-    this.color =
-      "#" +
-      Math.round(Math.random() * 15).toString(16) +
-      Math.round(Math.random() * 15).toString(16) +
-      "0000"
+    // this.color =
+    //   "#" +
+    //   Math.round(Math.random() * 15).toString(16) +
+    //   Math.round(Math.random() * 15).toString(16) +
+    //   "0000"
+    this.color = "rgba(" + Math.round(Math.random() * 250) + ",0,0," + 0.5 + ")"
 
     this.rotate = (-Math.PI + TAU * Math.random()) / TAU / 20
   }
@@ -125,8 +126,8 @@ class Pattern {
   }
 
   update() {
-    // this.context.fillStyle = "#FFE1DD"
-    this.context.fillStyle = "#DBB7B7"
+    this.context.fillStyle = "#ffe5dd"
+    // this.context.fillStyle = "#DBB7B7"
     this.context.fillRect(0, 0, 1024, 512)
 
     var shape
