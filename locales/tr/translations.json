@@ -8,32 +8,77 @@
   "scroll": "Aşağı kaydırın",
   "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN",
   "Who should attend?": "Kimler katılmalı?",
+  "What to expect?": "Neden katılmalıyım?",
   "shouldAttendObj": {
     "students": {
       "title": "Öğrenciler",
-      "cta": "Öğrenciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Ethereum ve web3'ün gelecekteki yerini anlayın.",
+        "Üniversite blokzincir kulüpleri ile tanışın.",
+        "Sektör uzmanlarıyla tanışın ve kariyer yolculuklarını dinleyin.",
+        "Web3 alanındaki iş imkanlarını değerlendirin."
+      ]
     },
     "developers": {
       "title": "Yazılım Geliştiriciler",
-      "cta": "Yazılım geliştiriciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Merkeziyetsiz uygulamalar ve akıllı sözleşmeler geliştirmeyi öğrenin.",
+        "Web3 geliştirici topluluğu ile tanışın.",
+        "Ethereum'un ve blokzincirlerin konu edindiği teknik problemleri keşfedin."
+      ]
     },
     "researchers": {
       "title": "Araştırmacılar",
-      "cta": "Araştırmacılar olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Blokzincirin ekonomik ve sosyolojik konulardaki etkisini keşfedin.",
+        "Ethereum'daki en güncel bilimsel gelişmeleri ve açık araştırma sorularını öğrenin."
+      ]
     },
     "finance": {
       "title": "Finans Profesyonelleri",
-      "cta": "Finans profesyonelleri olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Merkeziyetsiz finans (DeFi) uygulamalarının mevcut durumu ve ekosistemin yönü hakkında bilgi edinin.",
+        "Sabit para birimleri, borç verme ve türevler gibi DeFi uygulamalarının nasıl çalıştığını öğrenin.",
+        "Ethereum'un iç finansal modellerini ve ekonomisini keşfedin."
+      ]
     },
     "regulators": {
       "title": "Yasal Düzenleyiciler",
-      "cta": "Yasal düzenleyiciler olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Blokzincir teknolojilerinin Türkiye'deki mevcut durumunu ve sunduğu fırsatları keşfedin.",
+        "Web3 ve Ethereum'un siyaset, toplum ve ekonomi üzerindeki etkilerini tanıyın.",
+        "Dünya genelindeki blokzincir yasal çerçeveleri hakkında bilgi edinin."
+      ]
     },
     "anyone": {
       "title": "Meraklı Herkes!",
-      "cta": "Meraklı herkes olarak Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenin!"
+      "cta": [
+        "Ethereum ve kripto paralar nedir ve nasıl çalışırlar, kavrayın.",
+        "Blokzincir teknolojisinin gelecekteki etkilerini keşfedin.",
+        "Ethereum'un günlük hayatta nasıl kullanıldığına dair bilgi sahibi olun."
+      ]
     }
   },
+  "Topics": "Konu Başlıkları",
+  "topicsArray": [
+    "Akıllı sözleşmeler",
+    "Merkeziyetsizlik",
+    "Merkeziyetsiz Finans (DeFi)",
+    "MEV",
+    "Cüzdanlar",
+    "Kripto ve İtibari Para Birimleri",
+    "Şifreleme",
+    "Gizlilik (Privacy)",
+    "Ölçeklenebilirlik",
+    "Sabit Paralar (Stable coins)",
+    "Sıfır Bilgi İspatı (Zero-knowledge Proof)",
+    "Kamu Malları (Public Goods)",
+    "İkinci Katman Teknolojileri",
+    "Self-custody",
+    "Sansüre dayanıklılık",
+    "Regülasyon",
+    "Dijital Kimlik"
+  ],
   "Speakers": "Konuşmacılar",
   "FAQ": "SSS",
   "FAQ-long": "Sıkça Sorulan Sorular",
@@ -84,6 +129,7 @@
   "follow-newsletter": "Gelişmelerden haberdar olmak için takip edin",
   "Contact": "İletişim",
   "until-event": "ETKİNLİĞİN BAŞLAMASINA:",
+  "and more": "ve daha fazlası",
   "email-success": "Teşekkürler!",
   "email-error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
   "email-cta": "E-posta bültenimize kaydolun"

@@ -8,30 +8,48 @@
   "scroll": "Scroll to continue",
   "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S",
   "Who should attend?": "Who should attend?",
+  "What to expect?": "What to expect?",
   "shouldAttendObj": {
     "students": {
       "title": "Students",
-      "cta": "As Stuents Learn why Ethereum and web3 matter in the future. Connect with fellow students and numerous university blockchain clubs. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Explore the importance of Ethereum and web3.",
+        "Connect with fellow students and numerous university blockchain clubs."
+      ]
     },
     "developers": {
       "title": "Developers",
-      "cta": "As Developers Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Learn to create decentralized applications and smart contracts.",
+        " Network with peers and the Ethereum community."
+      ]
     },
     "researchers": {
       "title": "Researchers",
-      "cta": "As Researchers Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Dive into interesting research topics in the ecosystem.",
+        " Collaborate with fellow researchers and the Ethereum community."
+      ]
     },
     "finance": {
       "title": "Finance Professionals",
-      "cta": "As Finance Professionals Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Learn about decentralized finance (DeFi), the current state of applications,  and ecosystem trends.",
+        " Connect with industry experts."
+      ]
     },
     "regulators": {
       "title": "Regulators",
-      "cta": "As Regulators Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Gain insights into the Ethereum ecosystem and the legal frameworks.",
+        " Engage in meaningful discussions with regulators and the Ethereum community."
+      ]
     },
     "anyone": {
       "title": "Anyone curious!",
-      "cta": "As Anyone Curious Learn how to build decentralized applications and smart contracts. Connect with fellow developers and the Ethereum community. Meet experts, hear their career stories, and get a taste of the opportunities in the ecosystem."
+      "cta": [
+        "Connect with industry experts, listen to their career journeys, and explore the opportunities within the ecosystem!"
+      ]
     }
   },
   "Speakers": "Speakers",
@@ -71,6 +89,8 @@
       "a": "Tickets are not on sale yet. Please sign up for our mailing list to be notified when tickets go on sale."
     }
   ],
+  "Topics": "Topics",
+  "topicsArray": [],
   "copyright-text": "Trademarks and brands are the property of their respective owners.",
   "Sitemap": "Sitemap",
   "Code of Conduct": "Code of Conduct",
@@ -84,6 +104,7 @@
   "follow-newsletter": "Follow for updates about the event",
   "Contact": "Contact",
   "until-event": "Until the event:",
+  "and more": "and more",
   "email-success": "Thank you!",
   "email-error": "An error occured.",
   "email-cta": "Subscribe to our newsletter"

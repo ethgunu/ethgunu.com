@@ -58,7 +58,7 @@ export default function Footer() {
               >
                 <FaTwitter className="text-xl" />
               </a>
-              <a>
+              <a href="https://t.me/ethgunu" target="_blank" rel="noopener">
                 <FaTelegram className="text-xl" />
               </a>
             </div>
