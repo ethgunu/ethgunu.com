@@ -68,9 +68,11 @@ export default function Speakers() {
           <Speaker key={`speaker-${index}`} speaker={speaker} />
         ))}
       </div>
-      <div className="mt-12 w-full">
-        <img src={silhouette} alt="silhouette" className="w-full" />
-      </div>
+      <img
+        src={silhouette}
+        alt="silhouette"
+        className="mt-12 w-auto min-h-[10rem] object-cover object-center"
+      />
     </section>
   )
 }

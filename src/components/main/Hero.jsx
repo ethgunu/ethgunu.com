@@ -39,7 +39,7 @@ export default function Hero() {
 
       {/* Bottom elements */}
       <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
-        <div className="flex flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
+        <div className="flex flex-col md:flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
           {/* Desktop date */}
           <div className="text-lg md:text-5xl font-serif text-white">
             13
