@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => {
 
       {/* Desktop Full Nav */}
       <div className="flex-row hidden md:flex">
-        <nav className="flex flex-row items-center space-x-2 text-gunuOrange uppercase gap-4 text-sm">
+        <nav className="ml-4 flex flex-row text-center items-center space-x-2 text-gunuOrange uppercase gap-4 text-sm">
           <Link to="#whoShouldAttend">
             <Trans>Who should attend?</Trans>
           </Link>

@@ -41,14 +41,28 @@ export default function Hero() {
       <div className="flex flex-col md:flex-row mx-2 md:mx-16 mb-2 justify-center md:justify-between items-center">
         <div className="flex flex-col md:flex-row items-center md:mb-4 flex-wrap justify-center z-20 text-center md:text-left">
           {/* Desktop date */}
-          <div className="text-lg md:text-5xl font-serif text-white">
-            13
-            <span className="md:hidden"> </span>
-            <br className="hidden md:block" />
-            {t("Nov")}
-            <span className="md:hidden"> </span>
-            <br className="hidden md:block" />
-            2023
+          <div className="flex flex-col text-white">
+            <div className="text-xl md:text-5xl font-serif leading-none">
+              13
+              <span className="md:hidden"> </span>
+              <br className="hidden md:block" />
+              {t("Nov")}
+              <span className="md:hidden"> </span>
+              <br className="hidden md:block" />
+              2023
+            </div>
+            <div className="text-[0.65rem] leading-none md:text-xs mt-1 opacity-60 ">
+              {" "}
+              <a
+                className="underline"
+                href="https://devconnect.org"
+                target="_blank"
+                rel="noopener"
+              >
+                Devconnect
+              </a>{" "}
+              {t("Week")}
+            </div>
           </div>
           {/* Mobile date */}
           <div className="hidden md:block text-xl md:text-5xl font-serif text-white mx-4">
@@ -76,13 +90,13 @@ export default function Hero() {
           to="https://devconnect.org"
           target="_blank"
           rel="noopener"
-          className="opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
+          className="hidden md:block opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
         >
           <img src={devconnect} className="h-10 md:h-24" />
         </Link>
       </div>
       {/* Scroll sign */}
-      <div className="flex flex-row mb-12 md:mb-2 mx-16 mt-4 md:mt-0 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
+      <div className="flex flex-row mb-16 md:mb-2 mx-16 mt-4 md:mt-0 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
         <div className="text-sm">
           <BsArrowDownCircle />
         </div>

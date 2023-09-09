@@ -84,16 +84,12 @@
   "FAQ-long": "Sıkça Sorulan Sorular",
   "FAQItems": [
     {
-      "q": "Devconnect nedir?",
-      "a": "Devcon, Ethereum topluluğunun yıllık konferansıdır. Bu yıl, Devcon 5, 8-11 Ekim 2019 tarihleri arasında İstanbul'da gerçekleşecek."
-    },
-    {
-      "q": "Ethereum nedir?",
-      "a": "Ethereum, merkezi olmayan uygulamaları çalıştırmak için tasarlanmış bir platformdur. Bu, herhangi bir üçüncü tarafın müdahalesi olmadan çalışan, durdurulamayan bir bilgisayar platformu anlamına gelir."
-    },
-    {
       "q": "ETHGünü nedir",
       "a": "ETHGünü, Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye öğrenmek için bir fırsattır. 7 Ekim 2019'da İstanbul Kongre Merkezi'nde gerçekleşecek."
+    },
+    {
+      "q": "Devconnect nedir?",
+      "a": "Devcon, Ethereum topluluğunun yıllık konferansıdır. Bu yıl, Devcon 5, 8-11 Ekim 2019 tarihleri arasında İstanbul'da gerçekleşecek."
     },
     {
       "q": "ETHGünü'nde Neler Öğrenceğim?",
@@ -133,5 +129,6 @@
   "email-success": "Teşekkürler!",
   "email-error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
   "email-cta": "E-posta bültenimize kaydolun",
-  "get-tickets": "BİLETİNİZİ ALIN"
+  "get-tickets": "BİLETİNİZİ ALIN",
+  "Week": "Haftası"
 }
