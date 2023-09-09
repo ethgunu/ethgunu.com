@@ -2,6 +2,7 @@ import React from "react"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import { AnimatePresence, motion } from "framer-motion"
 import { FaMinus, FaPlus } from "react-icons/fa"
+import { Trans } from "gatsby-plugin-react-i18next"
 
 const FAQBox = ({ question, answer, key }) => {
   const [isOpen, setIsOpen] = React.useState(false)
@@ -10,34 +11,54 @@ const FAQBox = ({ question, answer, key }) => {
     <div
       className={`flex flex-col w-full px-6 py-4 ${
         isOpen ? "bg-gunuDark filter brightness-125" : "bg-gunuDark"
-      } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 cursor-pointer`}
-      onClick={() => setIsOpen(currIsOpen => !currIsOpen)}
+      } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 `}
     >
       <h1
-        className={`flex flex-row justify-between items-center ${
+        className={`flex flex-row justify-between items-center cursor-pointer ${
           isOpen ? "font-semibold" : ""
         }`}
+        onClick={() => setIsOpen(currIsOpen => !currIsOpen)}
       >
         <div>{question}</div>
         <div>{isOpen ? <FaMinus /> : <FaPlus />}</div>
       </h1>
       <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.section
+        {
+          <motion.div
             key={`answer-${key}`}
             initial="collapsed"
-            animate="open"
-            exit="collapsed"
+            animate={`${isOpen ? "open" : "collapsed"}`}
             variants={{
               open: { opacity: 1, height: "auto" },
               collapsed: { opacity: 0, height: 0 },
             }}
             transition={{ duration: 0.8, ease: [0, 0.62, 0.23, 0.98] }}
-            className="mt-4 overflow-hidden"
+            className="overflow-hidden"
           >
-            {answer}
-          </motion.section>
-        )}
+            <div className="mt-4">
+              <Trans
+                components={{
+                  blogLink: (
+                    <a
+                      href="https://blog.ethereum.org/tr/2023/04/20/announcing-devconnect-ist"
+                      target="_blank"
+                      className="underline"
+                    />
+                  ),
+                  devconnectLink: (
+                    <a
+                      href="https:/devconnect.org"
+                      target="_blank"
+                      className="underline"
+                    />
+                  ),
+                }}
+              >
+                {answer}
+              </Trans>
+            </div>
+          </motion.div>
+        }
       </AnimatePresence>
     </div>
   )
