@@ -47,11 +47,12 @@ const FAQBox = ({ question, answer, key }) => {
                   ),
                   devconnectLink: (
                     <a
-                      href="https:/devconnect.org"
+                      href="https://devconnect.org"
                       target="_blank"
                       className="underline"
                     />
                   ),
+                  br: <br />,
                 }}
               >
                 {answer}
