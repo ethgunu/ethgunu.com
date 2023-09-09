@@ -71,7 +71,7 @@ export default function Speakers() {
       <img
         src={silhouette}
         alt="silhouette"
-        className="mt-12 w-auto min-h-[10rem] object-cover object-center"
+        className="mt-12 w-auto md:w-full min-h-[10rem] object-cover object-center"
       />
     </section>
   )
