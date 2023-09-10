@@ -23,15 +23,10 @@ export default function WhoShouldAttend() {
 
   const handleOptionClick = index => {
     if (index === selectedOptionIndex) return
-    log("Animating is", animating)
-    if (animating) return
     setSelectedOptionIndex(index)
   }
 
   const handleLeftArrowClick = () => {
-    log("Animating is", animating)
-    if (animating) return
-    setAnimating(true)
     if (selectedOptionIndex === 0) {
       setSelectedOptionIndex(shouldAttendOptions.length - 1)
     } else {
@@ -40,9 +35,6 @@ export default function WhoShouldAttend() {
   }
 
   const handleRightArrowClick = () => {
-    log("Animating is", animating)
-    if (animating) return
-    setAnimating(true)
     if (selectedOptionIndex === shouldAttendOptions.length - 1) {
       setSelectedOptionIndex(0)
     } else {
@@ -96,13 +88,7 @@ export default function WhoShouldAttend() {
             onClick={handleLeftArrowClick}
           />
           <p className="text-xl md:text-2xl text-gray-700 md:mx-6 ">
-            <AnimatePresence
-              mode="wait"
-              onExitComplete={() => {
-                debug("ANIMATING EXIT")
-                setAnimating(false)
-              }}
-            >
+            <AnimatePresence mode="wait">
               <ul>
                 {/* Break text into words and animate each */}
                 {shouldAttendObj[selectedOption].cta.map(
@@ -111,15 +97,12 @@ export default function WhoShouldAttend() {
                       {bulletItem.split(" ").map((word, index) => (
                         <motion.span
                           key={word + selectedOptionIndex + index}
-                          initial={{ opacity: 0, y: -100 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, y: 100 }}
-                          transition={{ delay: Math.random() * 0.2 }}
-                          whileHover={{
-                            fontSize: "30px",
-                            transition: { duration: 0.3 },
+                          initial={{ opacity: 0 }}
+                          animate={{
+                            opacity: 1,
                           }}
+                          exit={{ opacity: 0 }}
+                          transition={{ delay: index * 0.1 }}
                         >
                           {word + " "}
                         </motion.span>
