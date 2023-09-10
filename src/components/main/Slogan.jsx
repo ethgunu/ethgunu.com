@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import blueTile from "../../images/tiles/tile-blue-small.png"
 import { Trans } from "gatsby-plugin-react-i18next"
+import EmailForm from "../EmailForm"
 
 export default function Slogan() {
   const targetRef = useRef(null)
@@ -38,6 +39,13 @@ export default function Slogan() {
           targetDateISO="2023-11-13T09:00:00"
           className=" text-gunuLightBlue uppercase text-2xl"
         />
+        <div className="flex flex-col items-center mt-8">
+          <h3 className="md:text-lg text-gunuNavy-50">
+            Etkinlik hakkında gelişmelerden haberdar olmak için bültenimize
+            kaydolun:
+          </h3>
+          <EmailForm isDark={true} className="mt-2" />
+        </div>
       </div>
     </section>
   )
