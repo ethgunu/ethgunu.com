@@ -36,7 +36,7 @@ function Seo({ description, title, children }) {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content={`${siteUrl}${image}`} />
+      <meta property="og:image" content={`${siteUrl}${image}?cache-break-1`} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={author || ``} />
       <meta name="twitter:title" content={title} />
