@@ -4,7 +4,7 @@ import speakers from "./speakers"
 import "./Speaker.css"
 import { FaTwitter } from "react-icons/fa"
 import silhouette from "./silhouette.png"
-import { motion, useScroll } from "framer-motion"
+import { motion } from "framer-motion"
 
 function Speaker({ speaker }) {
   return (

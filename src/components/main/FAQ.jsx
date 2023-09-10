@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { FaMinus, FaPlus } from "react-icons/fa"
 import { Trans } from "gatsby-plugin-react-i18next"
 
-const FAQBox = ({ question, answer, key }) => {
+const FAQBox = ({ question, answer }) => {
   const [isOpen, setIsOpen] = React.useState(false)
 
   return (
@@ -13,7 +13,7 @@ const FAQBox = ({ question, answer, key }) => {
         isOpen ? "bg-gunuDark filter brightness-125" : "bg-gunuDark"
       } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 `}
     >
-      <h1
+      <button
         className={`flex flex-row justify-between items-center cursor-pointer ${
           isOpen ? "font-semibold" : ""
         }`}
@@ -21,11 +21,10 @@ const FAQBox = ({ question, answer, key }) => {
       >
         <div>{question}</div>
         <div>{isOpen ? <FaMinus /> : <FaPlus />}</div>
-      </h1>
+      </button>
       <AnimatePresence initial={false}>
         {
           <motion.div
-            key={`answer-${key}`}
             initial="collapsed"
             animate={`${isOpen ? "open" : "collapsed"}`}
             variants={{
@@ -43,14 +42,16 @@ const FAQBox = ({ question, answer, key }) => {
                       href="https://blog.ethereum.org/tr/2023/04/20/announcing-devconnect-ist"
                       target="_blank"
                       className="underline"
-                    />
+                      rel="noreferrer"
+                    ></a>
                   ),
                   devconnectLink: (
                     <a
                       href="https://devconnect.org"
                       target="_blank"
                       className="underline"
-                    />
+                      rel="noreferrer"
+                    ></a>
                   ),
                   br: <br />,
                 }}
@@ -79,7 +80,7 @@ export default function FAQ() {
       </h3>
       <div className="w-full max-w-[64rem]">
         {FAQItems.map((item, index) => (
-          <FAQBox key={`faq-index`} question={item.q} answer={item.a} />
+          <FAQBox key={`faq-item-${index}`} question={item.q} answer={item.a} />
         ))}
       </div>
     </section>

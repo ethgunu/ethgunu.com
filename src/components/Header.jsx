@@ -1,7 +1,6 @@
 import { Link, Trans, useI18next } from "gatsby-plugin-react-i18next"
 import React, { useState } from "react"
 import logo from "../images/ethgunu-horizontal.png"
-import logoIconOnly from "../images/ethgunu-icon-only.png"
 import { FaTwitter, FaTelegram } from "react-icons/fa"
 import debug from "debug"
 import { IoLanguage } from "react-icons/io5"
@@ -22,7 +21,7 @@ const Header = ({ siteTitle }) => {
     <header className="absolute top-0 flex flex-row justify-between items-center px-6 md:px-12 bg-gunuPink h-16 py-4 w-full drop-shadow-lg z-50">
       {/* Desktop Icon */}
       <Link to="/" className="h-full">
-        <img src={logo} className="h-full" />
+        <img src={logo} className="h-full" alt="ETHGunu Logo" />
       </Link>
 
       {/* Desktop Full Nav */}
@@ -37,30 +36,26 @@ const Header = ({ siteTitle }) => {
           <Link to="#faq">
             <Trans>FAQ</Trans>
           </Link>
-          <Link
-            to="https://ethgunu.substack.com"
+          <a
+            href="https://ethgunu.substack.com"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
             className="flex items-center"
           >
             <Trans>Newsletter</Trans>
             <HiOutlineExternalLink className="inline-block ml-1" />
-          </Link>
+          </a>
         </nav>
         <div className="flex flex-row items-center mx-8 space-x-2 text-xl text-gunuNavy">
           <a
             href="https://twitter.com/eth_gunu"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             <FaTwitter />
           </a>
 
-          <a
-            href="https://t.me/ethgunu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
             <FaTelegram />
           </a>
         </div>
@@ -140,29 +135,25 @@ const Header = ({ siteTitle }) => {
                 <Link to="#faq">
                   <Trans>FAQ</Trans>
                 </Link>
-                <Link
-                  to="https://ethgunu.substack.com"
+                <a
+                  href="https://ethgunu.substack.com"
                   target="_blank"
-                  rel="noopener"
+                  rel="noreferrer"
                   className="flex items-center text-center justify-center"
                 >
                   <Trans>Newsletter</Trans>
                   <HiOutlineExternalLink className="ml-1" />
-                </Link>
+                </a>
               </nav>
               <div className="flex flex-row items-center mx-4 space-x-2 text-gunuNavy text-2xl gap-4 my-4">
                 <a
                   href="https://twitter.com/eth_gunu"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   <FaTwitter />
                 </a>
-                <a
-                  href="https://t.me/ethgunu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
                   <FaTelegram />
                 </a>
               </div>

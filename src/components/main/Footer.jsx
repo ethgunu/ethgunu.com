@@ -29,7 +29,7 @@ export default function Footer() {
             <a
               href="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
               className="inline-block bg-gunuNavy text-gray-200 text-sm px-4 py-2 rounded-md mt-4"
             >
               {t("Get Directions")}
@@ -54,11 +54,11 @@ export default function Footer() {
               <a
                 href="https://twitter.com/eth_gunu"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 <FaTwitter className="text-xl" />
               </a>
-              <a href="https://t.me/ethgunu" target="_blank" rel="noopener">
+              <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
                 <FaTelegram className="text-xl" />
               </a>
             </div>
@@ -68,17 +68,22 @@ export default function Footer() {
 
       {/* Second row */}
       <div className="flex flex-col md:flex-row border-y-[1px] border-gray-500 py-8 justify-between items-center text-center md:text-left">
-        <img src={logo} alt="ETHGunu Logo" className="h-12" />
+        <img
+          src={logo}
+          alt="ETHGunu Logo"
+          className="h-12"
+          alt="ETHGunu logo"
+        />
         <div className="flex flex-col mt-8 md:mt-0">
           <h3 className="text-gunuNavy">{t("Destekçiler")}</h3>
           <div className="flex flex-wrap flex-row justify-center gap-16 mt-2 items-center">
-            <a href="https://devconnect.org" target="_blank" rel="noopener">
-              <img src={devconnect} alt="ETHGunu Logo" className="h-12" />
+            <a href="https://devconnect.org" target="_blank" rel="noreferrer">
+              <img src={devconnect} alt="Devconnect Logo" className="h-12" />
             </a>
             <a
               href="https://ethereum.foundation"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <img
                 src={efLogo}
@@ -96,9 +101,6 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-2 mt-4">
           <a>{t("Sitemap")}</a>
           <a>{t("Code of Conduct")}</a>
-          <a>{t("Privacy Policy")}</a>
-          <a>{t("Cookie Policy")}</a>
-          <a>{t("Terms of Use")}</a>
         </div>
       </div>
     </footer>

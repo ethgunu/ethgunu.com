@@ -11,7 +11,6 @@ export default function Slogan() {
     offset: ["end end", "start start"],
   })
 
-  console.log(scrollYProgress)
   const rotation = useTransform(scrollYProgress, [0.2, 0.8], [0, 360])
   const rotationClass = `rotate-[${rotation}]`
 

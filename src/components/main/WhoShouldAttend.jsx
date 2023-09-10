@@ -87,13 +87,16 @@ export default function WhoShouldAttend() {
             className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
             onClick={handleLeftArrowClick}
           />
-          <p className="text-xl md:text-2xl text-gray-700 md:mx-6 ">
+          <div className="text-xl md:text-2xl text-gray-700 md:mx-6 ">
             <AnimatePresence mode="wait">
               <ul>
                 {/* Break text into words and animate each */}
                 {shouldAttendObj[selectedOption].cta.map(
                   (bulletItem, index) => (
-                    <motion.li className="mt-6 first:mt-2">
+                    <motion.li
+                      className="mt-6 first:mt-2"
+                      key={`bullet-li-${index}`}
+                    >
                       {bulletItem.split(" ").map((word, index) => (
                         <motion.span
                           key={word + selectedOptionIndex + index}
@@ -112,7 +115,7 @@ export default function WhoShouldAttend() {
                 )}
               </ul>
             </AnimatePresence>
-          </p>
+          </div>
           <BsArrowRightCircle
             className="box-content cursor-pointer py-6 w-16 md:w-24 text-3xl text-gray-500 active:text-gray-800"
             onClick={handleRightArrowClick}
@@ -121,7 +124,7 @@ export default function WhoShouldAttend() {
       </div>
       <img
         src={largeTile}
-        alt="tile"
+        alt="Decorative tile"
         className="h-[24rem] md:h-[48rem] opacity-20 absolute z-0 -bottom-[12rem] md:-bottom-[24rem]"
       />
     </section>

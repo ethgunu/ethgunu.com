@@ -4,7 +4,7 @@ import devconnect from "../../images/devconnectIST.png"
 import { FaLocationDot } from "react-icons/fa6"
 import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
-import { Trans, Link, useTranslation } from "gatsby-plugin-react-i18next"
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 import { GiTicket } from "react-icons/gi"
 
 export default function Hero() {
@@ -26,15 +26,15 @@ export default function Hero() {
             <Trans>Meet Ethereum</Trans>
           </h1>
         </div>
-        <Link
+        <a
           className="flex flex-row mt-4 md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
-          to="https://example.com"
+          href="https://example.com"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <GiTicket className="mr-1 text-xl" />
           {t("get-tickets")}
-        </Link>
+        </a>
       </div>
 
       {/* Bottom elements */}
@@ -57,7 +57,7 @@ export default function Hero() {
                 className="underline"
                 href="https://devconnect.org"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
               >
                 Devconnect
               </a>{" "}
@@ -68,11 +68,11 @@ export default function Hero() {
           <div className="hidden md:block text-xl md:text-5xl font-serif text-white mx-4">
             —
           </div>
-          <Link
+          <a
             className="flex flex-row my-2 items-center"
-            to="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
+            href="https://goo.gl/maps/N6VEtKT9xCMYMPk7A"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <FaLocationDot className="text-gunuOrange text-base md:text-2xl mt-1 mr-2" />
             <div className="text-white">
@@ -84,16 +84,20 @@ export default function Hero() {
                 Darülbedai Cad. No:3 34367 Şişli Maçka <br /> İstanbul/Türkiye
               </div>
             </div>
-          </Link>
+          </a>
         </div>
-        <Link
-          to="https://devconnect.org"
+        <a
+          href="https://devconnect.org"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
           className="hidden md:block opacity-60 hover:opacity-100 transition-opacity z-30 mt-4"
         >
-          <img src={devconnect} className="h-10 md:h-24" />
-        </Link>
+          <img
+            src={devconnect}
+            className="h-10 md:h-24"
+            alt="Devconnect Logo"
+          />
+        </a>
       </div>
       {/* Scroll sign */}
       <div className="flex flex-row mb-16 md:mb-2 mx-16 mt-4 md:mt-0 items-center justify-center md:justify-start text-gray-200 opacity-40 animate-bounce uppercase">
