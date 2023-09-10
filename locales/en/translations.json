@@ -115,6 +115,7 @@
   "email-success": "Thank you!",
   "email-error": "An error occured.",
   "email-cta": "Subscribe to our newsletter",
+  "email-cta-long": "Subscribe to our newsletter to get notified about the event",
   "get-tickets": "Get Tickets",
   "Week": "Week"
 }

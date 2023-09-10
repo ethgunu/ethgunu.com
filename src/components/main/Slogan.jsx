@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import blueTile from "../../images/tiles/tile-blue-small.png"
-import { Trans } from "gatsby-plugin-react-i18next"
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 import EmailForm from "../EmailForm"
 
 export default function Slogan() {
@@ -15,6 +15,7 @@ export default function Slogan() {
   const rotation = useTransform(scrollYProgress, [0.2, 0.8], [0, 360])
   const rotationClass = `rotate-[${rotation}]`
 
+  const { t } = useTranslation()
   return (
     <section
       className="flex flex-grow flex-col bg-gunuNavy px-4 md:px-36 text-center items-center"
@@ -41,8 +42,7 @@ export default function Slogan() {
         />
         <div className="flex flex-col items-center mt-8">
           <h3 className="md:text-lg text-gunuNavy-50">
-            Etkinlik hakkında gelişmelerden haberdar olmak için bültenimize
-            kaydolun:
+            {t("email-cta-long")}:
           </h3>
           <EmailForm isDark={true} className="mt-2" />
         </div>
