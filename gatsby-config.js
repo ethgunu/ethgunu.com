@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ETHGünü - Ethereum ile Tanışın`,
+    title: `ETHGünü `,
     description: `Türk topluluğunun Ethereum ile tanışma etkinliği 13 Kasım 2023, İstanbul Kongre Merkezi'nde `,
     image: `/ethGunu-card.png`,
     author: `@eth_gunu`,
