@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 
 import Layout from "../components/Layout"
 import { graphql } from "gatsby"
@@ -9,7 +9,7 @@ import Speakers from "../components/main/Speakers"
 import FAQ from "../components/main/FAQ"
 import Footer from "../components/main/Footer"
 import Seo from "../components/seo"
-import { useI18next, useTranslation } from "gatsby-plugin-react-i18next"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
 export const query = graphql`
   query ($language: String!) {
@@ -25,16 +25,25 @@ export const query = graphql`
   }
 `
 
-const IndexPage = () => (
-  <Layout>
-    <Hero />
-    <Slogan />
-    <WhoShouldAttend />
-    <Speakers />
-    <FAQ />
-    <Footer />
-  </Layout>
-)
+const IndexPage = () => {
+  const { t } = useTranslation()
+
+  useEffect(() => {
+    document.title = "ETHGünü - " + t("Meet Ethereum")
+    document.documentElement.classList.add("scroll-smooth")
+  }, [t])
+
+  return (
+    <Layout>
+      <Hero />
+      <Slogan />
+      <WhoShouldAttend />
+      <Speakers />
+      <FAQ />
+      <Footer />
+    </Layout>
+  )
+}
 
 export default IndexPage
 
@@ -44,17 +53,10 @@ export default IndexPage
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
 export const Head = () => {
-  const { t } = useTranslation()
-
-  useEffect(() => {
-    document.title = "ETHGünü - " + t("Meet Ethereum")
-    document.documentElement.classList.add("scroll-smooth")
-  }, [])
-
   return (
     <>
       {/* <html className="scroll-smooth" lang="tr" /> */}
-      <Seo />
+      <Seo title="Ethereum ile Tanışın" />
     </>
   )
 }

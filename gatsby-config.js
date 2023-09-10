@@ -11,9 +11,10 @@ module.exports = {
   siteMetadata: {
     title: `ETHGünü `,
     description: `Türk topluluğunun Ethereum ile tanışma etkinliği 13 Kasım 2023, İstanbul Kongre Merkezi'nde `,
-    image: `/ethGunu-card.png`,
+    image: `ethGunu-card.png`,
     author: `@eth_gunu`,
-    siteUrl: `https://ethgunu.com`,
+    // siteUrl: `https://ethgunu.com`,
+    siteUrl: `https://staging--ethgunu.netlify.app`,
   },
   // Debug server side rendering on `gatsby develop`
   // flags: {
