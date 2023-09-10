@@ -5,7 +5,10 @@ import { AnimatePresence, motion } from "framer-motion"
 import largeTile from "../../images/tiles/tile-colorful-large.png"
 import debug from "debug"
 const log = debug("WhoShouldAttend")
-log.enabled = true
+
+if (process.env.NODE_ENV === "development") {
+  log.enabled = true
+}
 
 export default function WhoShouldAttend() {
   const { t } = useTranslation()
