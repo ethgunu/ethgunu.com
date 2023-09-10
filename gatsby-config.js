@@ -9,10 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ETHGünü`,
-    description: `ETHGünü`,
+    title: `ETHGünü - Ethereum ile Tanışın`,
+    description: `Türk topluluğunun Ethereum ile tanışma etkinliği 13 Kasım 2023, İstanbul Kongre Merkezi'nde `,
+    image: `/ethGunu-card.png`,
     author: `@eth_gunu`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://ethgunu.com`,
   },
   // Debug server side rendering on `gatsby develop`
   // flags: {
