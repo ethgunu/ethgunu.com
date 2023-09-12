@@ -4,10 +4,11 @@
   "Istanbul": "Istanbul",
   "Congress": "Congress",
   "Center": "Center",
-  "learn-ethereum": "Learn Ethereum and web3 from A to Z in <underline>Turkish</underline> from the experts in the heart of Istanbul!",
+  "learn-ethereum": "Learn Ethereum and web3 from A to Z in <underline>Tursh</underline> from the experts in the heart of Istanbul!",
   "scroll": "Scroll to continue",
   "countdown": "<b>{{days}}</b>D <b>{{hours}}</b>H <b>{{minutes}}</b>M <b>{{seconds}}</b>S",
   "Who should attend?": "Who should attend?",
+  "who-should-attend-uppercase": "WHO SHOULD ATTEND?",
   "What to expect?": "What to expect?",
   "shouldAttendObj": {
     "students": {
@@ -64,36 +65,56 @@
   "FAQ-long": "Freqently Asked Questions",
   "FAQItems": [
     {
-      "q": "What is Devconnect?",
-      "a": "Devcon is the Ethereum Foundation’s annual conference, where we educate and empower our community to build decentralized applications, and bring Ethereum protocols, tools, and culture to the world. This year, we are hosting a series of Devcon events around the world, and we are excited to bring Devcon to Turkey for the first time!"
-    },
-    {
-      "q": "What is Ethereum?",
-      "a": "Ethereum is a global, open-source platform for decentralized applications. On Ethereum, you can write code that controls digital value, runs exactly as programmed, and is accessible anywhere in the world."
-    },
-    {
       "q": "What is ETHGünü?",
-      "a": "ETHGünü is a one-day event that will introduce Ethereum and web3 to the Turkish community. The event will feature talks and workshops from Ethereum experts, and will be a great opportunity to connect with the Ethereum community in Turkey."
+      "a": "ETHGünü, is an event taking place on 13th November 2023 at Istanbul Congress Center during <devconnectLink>Devconnect Istanbul week</devconnectLink> where the Turkish community will meet Ethereum and web3, and the Turkish Ethereum community get together."
     },
     {
-      "q": "What am I goint to learn at ETHGünü?",
-      "a": "You will learn about Ethereum and web3 from the experts, and get a taste of the opportunities in the ecosystem. You will also have the opportunity to connect with the Ethereum community in Turkey."
+      "q": "What is Devconnect?",
+      "a": "<devconnectLink>Devconnect</devconnectLink>, is an event week where the global Ethereum community comes together in different cities around the world, consisting of independent events focused on specific topics. <br/> <br/> This year Devconnect will take place in Istanbul between 13-19 November! You can read the <blogLink>Devconnect announcement</blogLink> for more information."
     },
     {
-      "q": "Will there be discussions or tips on pricing and trading of cryptocurrencies?",
-      "a": "No. ETHGünü is an educational event, and will not feature discussions or tips on pricing and trading of cryptocurrencies."
+      "q": "What's happenening during ETHGünü?",
+      "a": "During ETHGünü, there will be talks, panels, and workshops throughout the day."
+    },
+    {
+      "q": "What am I going to learn at ETHGünü?",
+      "a": "You will learn about web3 and Ethereum from A to Z from the experts. You can find everything about Ethereum such as how Ethereum works, how it is used, its economical and sociological impact, Ethereum values such as decentralization, censorship resistance, privacy, and more."
+    },
+    {
+      "q": "I don't know anything about Ethereum. Should I attend ETHGünü?",
+      "a": "Absolutely! ETHGünü program is designed for people who are not familiar with Ethereum. If you are already familiar with Ethereum, there will be talks and workshops covering more advanced topics."
+    },
+    {
+      "q": "Will I learn about Ethereum's price and crypto trading?",
+      "a": "No. ETHGünü will be a builder-focused event. Topics such as price and trading, advertising, marketing, and selling of any token or project will not be covered during the event."
     },
     {
       "q": "What is the language of the event?",
-      "a": "The event will be mostly in Turkish."
+      "a": "ETHGünü will be mostly in Turkish. Some sessions will be in English."
     },
     {
-      "q": "Will there be translation?",
-      "a": "Yes, there will be simulataneous translation from Turkish to English, and vice versa"
+      "q": "Will there be translation during the sessions?",
+      "a": "Yes, sessions will be simultaneously translated from Turkish to English and English to Turkish."
     },
     {
-      "q": "When are tickets going on sale?",
-      "a": "Tickets are not on sale yet. Please sign up for our mailing list to be notified when tickets go on sale."
+      "q": "Will the event be live streamed?",
+      "a": "Yes, talks and workshops will be live streamed online."
+    },
+    {
+      "q": "Will I be able to watch the talks later?",
+      "a": "Yes, the sessions will be recorded and published."
+    },
+    {
+      "q": "Can I give a talk or workshop?",
+      "a": "We will be opening the call for talks and workshops soon."
+    },
+    {
+      "q": "How can I contribute?",
+      "a": "We will be opening the call for volunteers soon. If you want to contribute in a different way, you can reach us at info@ethgunu.com"
+    },
+    {
+      "q": "I missed the ticket sale. Will there be more tickets?",
+      "a": "Yes. Ticket sales will be in waves. You can subscribe to our newsletter and follow us on social media to get notified when tickets are available."
     }
   ],
   "Topics": "Topics",

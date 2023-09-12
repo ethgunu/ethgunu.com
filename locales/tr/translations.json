@@ -7,7 +7,8 @@
   "learn-ethereum": "Ethereum ve web3'ü İstanbul'un kalbinde uzmanlarından A'dan Z'ye <underline>Türkçe</underline> öğrenin!",
   "scroll": "Aşağı kaydırın",
   "countdown": "<b>{{days}}</b>G <b>{{hours}}</b>S <b>{{minutes}}</b>DK <b>{{seconds}}</b>SN",
-  "Who should attend?": "Kimler katılmalı?",
+  "Who should attend?": "Kimler Katılmalı?",
+  "who-should-attend-uppercase": "KİMLER KATILMALI?",
   "What to expect?": "Neden katılmalıyım?",
   "shouldAttendObj": {
     "students": {
@@ -89,7 +90,7 @@
     },
     {
       "q": "Devconnect nedir?",
-      "a": "<devconnectLink>Devconnect</devconnectLink>, global Ethereum topluluğunun bir araya geldiği, birbirinden bağımsız ve belirli konulara odaklanmış etkinliklerden oluşan, dünyanın farklı merkezlerinde gerçekleşen bir haftadır. <br/> <br/> Bu yıl Devconnect 13-19 Kasım tarihlerinde İstanbul'da gerçekleşiyor! Daha fazla bilgi için <blogLink>Devconnect duyuru metni</blogLink>'ni okuyabilirsiniz."
+      "a": "<devconnectLink>Devconnect</devconnectLink>, global Ethereum topluluğunun bir araya geldiği, birbirinden bağımsız ve belirli konulara odaklanmış etkinliklerden oluşan, dünyanın farklı şehirlerinde gerçekleşen bir haftadır. <br/> <br/> Bu yıl Devconnect 13-19 Kasım tarihlerinde İstanbul'da gerçekleşiyor! Daha fazla bilgi için <blogLink>Devconnect duyuru metni</blogLink>'ni okuyabilirsiniz."
     },
     {
       "q": "ETHGünü'nde Neler Olacak?",

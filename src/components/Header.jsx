@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => {
       <div className="flex-row hidden md:flex">
         <nav className="ml-4 flex flex-row text-center items-center space-x-2 text-gunuOrange uppercase gap-4 text-sm">
           <Link to="#whoShouldAttend">
-            <Trans>Who should attend?</Trans>
+            <Trans>who-should-attend-uppercase</Trans>
           </Link>
           <Link to="#speakers">
             <Trans>Speakers</Trans>
@@ -127,7 +127,7 @@ const Header = ({ siteTitle }) => {
             >
               <nav className="flex flex-col p-4 gap-6 text-gunuOrange uppercase text-lg ">
                 <Link to="#whoShouldAttend">
-                  <Trans>Who should attend?</Trans>
+                  <Trans>who-should-attend-uppercase</Trans>
                 </Link>
                 <Link to="#speakers">
                   <Trans>Speakers</Trans>
