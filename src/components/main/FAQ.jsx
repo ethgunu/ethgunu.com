@@ -14,7 +14,7 @@ const FAQBox = ({ question, answer }) => {
       } text-white rounded-lg shadow-lg transition-colors duration-500 ease-in-out my-1 `}
     >
       <button
-        className={`flex flex-row justify-between items-center cursor-pointer ${
+        className={`flex flex-row justify-between items-center text-left cursor-pointer ${
           isOpen ? "font-semibold" : ""
         }`}
         onClick={() => setIsOpen(currIsOpen => !currIsOpen)}
