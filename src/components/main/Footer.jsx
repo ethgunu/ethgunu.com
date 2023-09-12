@@ -99,7 +99,9 @@ export default function Footer() {
           &copy; {currentYear} ETHGünü - {t("copyright-text")}
         </div>
         <div className="flex flex-col md:flex-row gap-2 mt-4">
-          <a>{t("Code of Conduct")}</a>
+          <a href={`/${t("code-of-conduct")}`} target="_blank" rel="noreferrer">
+            {t("Code of Conduct")}
+          </a>
         </div>
       </div>
     </footer>
