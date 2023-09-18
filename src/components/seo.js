@@ -33,11 +33,11 @@ function Seo({ description, title, children }) {
     <>
       <title>{title ? `${defaultTitle} - ${title}` : defaultTitle}</title>
       <meta name="description" content={metaDescription} />
-      <meta name="image" content={`${siteUrl}/${image}?cache-break-3`} />
+      <meta name="image" content={`${siteUrl}/${image}?cache-break-4`} />
       <meta name="og:title" content={title} />
       <meta name="og:url" content={siteUrl} />
       <meta name="og:description" content={metaDescription} />
-      <meta name="og:image" content={`${siteUrl}/${image}?cache-break-3`} />
+      <meta name="og:image" content={`${siteUrl}/${image}?cache-break-4`} />
 
       <meta name="twitter:site" content={author} />
       <meta name="twitter:card" content="summary_large_image" />
