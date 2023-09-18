@@ -75,7 +75,7 @@ const EmailForm = ({ isDark, className }) => {
             setSuccess("")
           }}
           className="px-2 w-full text-sm text-gray-800 bg-transparent dark:placeholder:text-gray-500  placeholder:text-gray-400 focus:outline-none focus:border-gunuNavy-500 peer"
-          placeholder="test@test.com"
+          placeholder="isminiz@gmail.com"
           required
         />
 
