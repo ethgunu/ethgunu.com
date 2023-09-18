@@ -30,9 +30,9 @@ const Header = ({ siteTitle }) => {
           <Link to="#whoShouldAttend">
             <Trans>who-should-attend-uppercase</Trans>
           </Link>
-          <Link to="#speakers">
+          {/* <Link to="#speakers">
             <Trans>Speakers</Trans>
-          </Link>
+          </Link> */}
           <Link to="#faq">
             <Trans>FAQ</Trans>
           </Link>
@@ -129,9 +129,9 @@ const Header = ({ siteTitle }) => {
                 <Link to="#whoShouldAttend">
                   <Trans>who-should-attend-uppercase</Trans>
                 </Link>
-                <Link to="#speakers">
+                {/* <Link to="#speakers">
                   <Trans>Speakers</Trans>
-                </Link>
+                </Link> */}
                 <Link to="#faq">
                   <Trans>FAQ</Trans>
                 </Link>
