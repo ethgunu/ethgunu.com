@@ -38,7 +38,7 @@ const IndexPage = () => {
       <Hero />
       <Slogan />
       <WhoShouldAttend />
-      {/* <Speakers /> */}
+      <Speakers />
       <FAQ />
       <Footer />
     </Layout>
