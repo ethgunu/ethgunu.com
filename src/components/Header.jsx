@@ -1,7 +1,7 @@
 import { Link, Trans, useI18next } from "gatsby-plugin-react-i18next"
 import React, { useState } from "react"
 import logo from "../images/ethgunu-horizontal.png"
-import { FaTwitter, FaTelegram } from "react-icons/fa"
+import { FaTwitter, FaTelegram, FaLinkedin } from "react-icons/fa"
 import debug from "debug"
 import { IoLanguage } from "react-icons/io5"
 import { AiOutlineMenu } from "react-icons/ai"
@@ -57,6 +57,13 @@ const Header = ({ siteTitle }) => {
 
           <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
             <FaTelegram />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/ethgunu/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
           </a>
         </div>
 
@@ -155,6 +162,13 @@ const Header = ({ siteTitle }) => {
                 </a>
                 <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
                   <FaTelegram />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/ethgunu/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaLinkedin />
                 </a>
               </div>
             </motion.div>
