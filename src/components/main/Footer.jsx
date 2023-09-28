@@ -66,7 +66,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaLinkedin />
+                <FaLinkedin className="text-xl" />
               </a>
             </div>
           </div>
