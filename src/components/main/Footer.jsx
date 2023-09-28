@@ -1,7 +1,7 @@
 import React from "react"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import logo from "../../images/ethgunu-dark-horizontal.png"
-import { FaTelegram, FaTwitter } from "react-icons/fa"
+import { FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa"
 import efLogo from "../../images/ethereum-foundation-white.png"
 import devconnect from "../../images/Devconnect.svg"
 import EmailForm from "../EmailForm"
@@ -60,6 +60,13 @@ export default function Footer() {
               </a>
               <a href="https://t.me/ethgunu" target="_blank" rel="noreferrer">
                 <FaTelegram className="text-xl" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ethgunu/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin />
               </a>
             </div>
           </div>
