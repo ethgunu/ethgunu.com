@@ -125,6 +125,10 @@
       "a": "Evet, oturumlar kaydedilerek yayınlanacaktır."
     },
     {
+      "q": "Etkinlik haftaiçi gerçekleşiyor, etkinlik alanından çalışabilecek miyim?",
+      "a": "ETHGünü katılımcıları etkinlik günü yani 13 Kasım'da aynı binada bulunan <coworkLink>Devconnect Coworking</coworkLink> alanını kullanabilecekler. Diğer günler için ayrıca coworking bileti almanız gerekmektedir. ETHGünü alanında WiFi da olacaktır. "
+    },
+    {
       "q": "Bir konuşma veya workshop yapabilir miyim?",
       "a": "Topluluğa yönelik konuşma veya workshop başvurularını yakında açacağız."
     },

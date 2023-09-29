@@ -53,6 +53,14 @@ const FAQBox = ({ question, answer }) => {
                       rel="noreferrer"
                     ></a>
                   ),
+                  coworkLink: (
+                    <a
+                      href="https://devconnect.org/cowork"
+                      target="_blank"
+                      className="underline"
+                      rel="noreferrer"
+                    ></a>
+                  ),
                   br: <br />,
                 }}
               >

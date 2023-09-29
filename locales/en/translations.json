@@ -105,6 +105,10 @@
       "a": "Yes, the sessions will be recorded and published."
     },
     {
+      "q": "The event is on a weekday, can I work from the venue?",
+      "a": "ETHGünü attendees will also be able to enter the <coworkLink>Devconnect Coworking</coworkLink> on 13th on the event day, which is in the same building. For the other days, you need to get a coworking ticket. There will also be WiFi in the venue."
+    },
+    {
       "q": "Can I give a talk or workshop?",
       "a": "We will be opening the call for talks and workshops soon."
     },
