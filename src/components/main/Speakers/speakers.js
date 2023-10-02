@@ -11,6 +11,12 @@ const speakers = [
     image: require("./photos/gulcan.jpg").default,
     twitter: "https://twitter.com/gulcan_yayla",
   },
+  {
+    name: "Vitalik Buterin",
+    organization: "Ethereum Foundation",
+    image: require("./photos/vitalik.jpg").default,
+    twitter: "https://twitter.com/VitalikButerin",
+  },
 ]
 
 export default speakers
