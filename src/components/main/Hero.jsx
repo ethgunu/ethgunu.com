@@ -26,15 +26,17 @@ export default function Hero() {
             <Trans>Meet Ethereum</Trans>
           </h1>
         </div>
-        <a
-          className="flex flex-row mt-4 md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
-          href="https://ticketh.xyz/ethgunu/ethgunu/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <GiTicket className="mr-1 text-xl" />
-          {t("get-tickets")}
-        </a>
+        <div className="flex flex-col md:flex-row justify-center items-center mt-4">
+          <a
+            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
+            href="https://ticketh.xyz/ethgunu/ethgunu/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GiTicket className="mr-1 text-xl" />
+            {t("get-tickets")}
+          </a>
+        </div>
       </div>
 
       {/* Bottom elements */}

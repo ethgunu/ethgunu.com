@@ -5,6 +5,7 @@ import "./Speaker.css"
 import { FaTwitter } from "react-icons/fa"
 import silhouette from "./silhouette.png"
 import { motion } from "framer-motion"
+import { GiMicrophone } from "react-icons/gi"
 
 function Speaker({ speaker }) {
   return (
@@ -60,9 +61,24 @@ export default function Speakers() {
       className="flex flex-col items-center  pt-12 bg-gradient-2"
       id="speakers"
     >
+      <div className="">
+        <a
+          className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
+          href="https://speak.ticketh.xyz/ethgunu/cfp"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GiMicrophone className="mr-1 text-xl" />
+          {t("speak")}
+        </a>
+      </div>
+      <div className="mx-8 text-center mt-2">
+        <p>{t("speak-text")}</p>
+      </div>
       <h3 className="text-4xl text-gray-800 my-6 font-serif">
         {t("Speakers")}
       </h3>
+
       <div className="px-4 md:px-12 max-w-[64rem] flex flex-row justify-center flex-wrap gap-6 md:gap-12 mt-12">
         {speakers.map((speaker, index) => (
           <Speaker key={`speaker-${index}`} speaker={speaker} />

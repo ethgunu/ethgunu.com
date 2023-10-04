@@ -61,6 +61,8 @@
     }
   },
   "Speakers": "Speakers",
+  "speak": "Speak",
+  "speak-text": "Speaker applications opened! If you want to hold a talk, panel, or a workshop, apply by filling the form.",
   "FAQ": "FAQ",
   "FAQ-long": "Freqently Asked Questions",
   "FAQItems": [
@@ -110,7 +112,7 @@
     },
     {
       "q": "Can I give a talk or workshop?",
-      "a": "We will be opening the call for talks and workshops soon."
+      "a": "Yes! <cfpLink>Here</cfpLink> you can apply to hold a talk, workshop or a panel."
     },
     {
       "q": "How can I contribute?",

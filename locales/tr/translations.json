@@ -83,6 +83,8 @@
   "Speakers": "Konuşmacılar",
   "FAQ": "SSS",
   "FAQ-long": "Sıkça Sorulan Sorular",
+  "speak": "Konuşun",
+  "speak-text": "Konuşmacı başvurıları açıldı! Siz de ETHGünü'nde bir konuşma, panel ve workshop yapmak için konuşmacı formunu doldurabilirsiniz.",
   "FAQItems": [
     {
       "q": "ETHGünü nedir",
@@ -130,7 +132,7 @@
     },
     {
       "q": "Bir konuşma veya workshop yapabilir miyim?",
-      "a": "Topluluğa yönelik konuşma veya workshop başvurularını yakında açacağız."
+      "a": "Evet! Konuşmacı başvuruları açıldı. <cfpLink>Buradan</cfpLink> siz de bir konuşma, panel veya workshop yapmak için başvurabilirsiniz."
     },
     {
       "q": "Nasıl katkı sağlayabilirim?",

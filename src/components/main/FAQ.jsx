@@ -61,6 +61,14 @@ const FAQBox = ({ question, answer }) => {
                       rel="noreferrer"
                     ></a>
                   ),
+                  cfpLink: (
+                    <a
+                      href="https://speak.ticketh.xyz/ethgunu/cfp"
+                      target="_blank"
+                      className="underline"
+                      rel="noreferrer"
+                    ></a>
+                  ),
                   br: <br />,
                 }}
               >
