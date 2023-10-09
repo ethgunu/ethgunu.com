@@ -84,7 +84,9 @@
   "FAQ": "SSS",
   "FAQ-long": "Sıkça Sorulan Sorular",
   "speak": "Konuşun",
+  "volunteer": "Gönüllü olun",
   "speak-text": "Konuşmacı başvurıları açıldı! Siz de ETHGünü'nde bir konuşma, panel ve workshop yapmak için konuşmacı formunu doldurabilirsiniz.",
+  "volunteer-text": "Gönüllülük başvuruları açıldı! Etkinliğin bir parçası olmak ve ETHGünü'ne katkı sağlamak için gönüllü formunu doldurabilirsiniz.",
   "FAQItems": [
     {
       "q": "ETHGünü nedir",
@@ -136,7 +138,7 @@
     },
     {
       "q": "Nasıl katkı sağlayabilirim?",
-      "a": "Etkinliğimiz için gönüllü başvuruları da yakın zamanda açılacaktır. Farklı şekilde katkı sağlamak istiyorsanız bize info@ethgunu.com'dan ulaşabilirsiniz."
+      "a": "Etkinliğimiz için gönüllü başvuruları açıldı! <volunteerLink>Buradan</volunteerLink> siz de gönüllü olmak için başvurabilirsiniz. Başka şekilde katkı sağlamak istiyorsanız bize info@ethgunu.com'dan ulaşın."
     },
     {
       "q": "Bilet almayı başaramadım. Daha fazla bilet olacak mı?",

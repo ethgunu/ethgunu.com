@@ -62,7 +62,9 @@
   },
   "Speakers": "Speakers",
   "speak": "Speak",
+  "volunteer": "Volunteer",
   "speak-text": "Speaker applications opened! If you want to hold a talk, panel, or a workshop, apply by filling the form.",
+  "volunteer-text": "Volunteer applications opened! If you want to contribute to the event, apply by filling the form.",
   "FAQ": "FAQ",
   "FAQ-long": "Freqently Asked Questions",
   "FAQItems": [
@@ -116,7 +118,7 @@
     },
     {
       "q": "How can I contribute?",
-      "a": "We will be opening the call for volunteers soon. If you want to contribute in a different way, you can reach us at info@ethgunu.com"
+      "a": "We opened the call for volunteers! <volunteerLink>Here</volunteerLink> you can apply to volunteer. If you want to contribute in a different way, you can reach us at info@ethgunu.com"
     },
     {
       "q": "I missed the ticket sale. Will there be more tickets?",

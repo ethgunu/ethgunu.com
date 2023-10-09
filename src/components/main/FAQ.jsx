@@ -69,6 +69,14 @@ const FAQBox = ({ question, answer }) => {
                       rel="noreferrer"
                     ></a>
                   ),
+                  volunteerLink: (
+                    <a
+                      href="https://forms.gle/D4iXivnBtz5N3Y4q7"
+                      target="_blank"
+                      className="underline"
+                      rel="noreferrer"
+                    ></a>
+                  ),
                   br: <br />,
                 }}
               >
