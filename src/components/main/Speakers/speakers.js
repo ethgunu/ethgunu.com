@@ -23,6 +23,12 @@ const speakers = [
     image: require("./photos/aya.jpeg").default,
     twitter: "https://twitter.com/AyaMiyagotchi",
   },
+  {
+    name: "Şant Manukyan",
+    organization: "İş Yatırım",
+    image: require("./photos/sant.jpg").default,
+    twitter: "https://twitter.com/SantManukyan",
+  },
 ]
 
 export default speakers
