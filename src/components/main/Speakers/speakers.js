@@ -35,6 +35,12 @@ const speakers = [
     image: require("./photos/emre.jpeg").default,
     twitter: "https://twitter.com/etekis",
   },
+  {
+    name: "Efe Bulduk",
+    organization: "Ekonomist",
+    image: require("./photos/efe.jpg").default,
+    twitter: "https://twitter.com/TheBullduck",
+  },
 ]
 
 export default speakers
