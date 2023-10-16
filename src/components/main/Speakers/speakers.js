@@ -37,7 +37,7 @@ const speakers = [
   },
   {
     name: "Efe Bulduk",
-    organization: "Ekonomist",
+    organization: "First Batch",
     image: require("./photos/efe.jpg").default,
     twitter: "https://twitter.com/TheBullduck",
   },
