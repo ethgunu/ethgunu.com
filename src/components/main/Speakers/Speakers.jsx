@@ -76,20 +76,7 @@ export default function Speakers() {
       <div className="mx-8 text-center mt-2">
         <p>{t("speak-text")}</p>
       </div>
-      <div className="mt-4">
-        <a
-          className="flex flex-row md:text-base text-sm bg-gunuNavy px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
-          href="https://forms.gle/D4iXivnBtz5N3Y4q7"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <MdOutlineVolunteerActivism className="mr-1 text-xl" />
-          {t("volunteer")}
-        </a>
-      </div>
-      <div className="mx-8 text-center mt-2">
-        <p>{t("volunteer-text")}</p>
-      </div>
+
       <h3 className="text-4xl text-gray-800 mt-12 font-serif">
         {t("Speakers")}
       </h3>
