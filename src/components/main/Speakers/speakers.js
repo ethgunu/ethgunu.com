@@ -53,6 +53,12 @@ const speakers = [
     image: require("./photos/baki.jpg").default,
     twitter: "https://twitter.com/LibraryDefi",
   },
+  {
+    name: "Mindy Harrell",
+    organization: "CoW Protocol",
+    image: require("./photos/mindy.jpeg").default,
+    twitter: "https://twitter.com/Silver_Queen",
+  },
 ]
 
 export default speakers
