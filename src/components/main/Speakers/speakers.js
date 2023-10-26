@@ -59,6 +59,12 @@ const speakers = [
     image: require("./photos/mindy.jpeg").default,
     twitter: "https://twitter.com/Silver_Queen",
   },
+  {
+    name: "Turan Sert",
+    organization: "Araştırmacı",
+    image: require("./photos/turan.png").default,
+    twitter: "https://twitter.com/turansert",
+  },
 ]
 
 export default speakers
