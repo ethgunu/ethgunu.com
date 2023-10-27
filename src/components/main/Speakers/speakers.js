@@ -65,6 +65,12 @@ const speakers = [
     image: require("./photos/turan.png").default,
     twitter: "https://twitter.com/turansert",
   },
+  {
+    name: "İsa Sertkaya",
+    organization: "Silent Protocol",
+    image: require("./photos/isa.jpeg").default,
+    twitter: "https://twitter.com/isa_sertkaya",
+  },
 ]
 
 export default speakers
