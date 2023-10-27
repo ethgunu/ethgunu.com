@@ -71,6 +71,12 @@ const speakers = [
     image: require("./photos/isa.jpeg").default,
     twitter: "https://twitter.com/isa_sertkaya",
   },
+  {
+    name: "Furkan Akal",
+    organization: "Detable",
+    image: require("./photos/furkan.jpg").default,
+    twitter: "https://twitter.com/furkanakalcom",
+  },
 ]
 
 export default speakers
