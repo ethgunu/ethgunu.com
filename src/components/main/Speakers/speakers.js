@@ -77,6 +77,24 @@ const speakers = [
     image: require("./photos/furkan.jpg").default,
     twitter: "https://twitter.com/furkanakalcom",
   },
+  {
+    name: "Erkan Gül",
+    organization: "Moseiki",
+    image: require("./photos/erkan.jpg").default,
+    twitter: "https://twitter.com/_ErkanG",
+  },
+  {
+    name: "Ali Tıknazoğlu",
+    organization: "Phaver",
+    image: require("./photos/ali.jpg").default,
+    twitter: "https://twitter.com/alitiknazoglu",
+  },
+  {
+    name: "Mesut Gülecen",
+    organization: "Kaira",
+    image: require("./photos/mesut.jpeg").default,
+    twitter: "https://twitter.com/mesutgulecen",
+  },
 ]
 
 export default speakers
