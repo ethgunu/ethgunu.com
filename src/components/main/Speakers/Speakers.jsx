@@ -62,21 +62,6 @@ export default function Speakers() {
       className="flex flex-col items-center  pt-12 bg-gradient-2"
       id="speakers"
     >
-      <div className="">
-        <a
-          className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
-          href="https://speak.ticketh.xyz/ethgunu/cfp"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <GiMicrophone className="mr-1 text-xl" />
-          {t("speak")}
-        </a>
-      </div>
-      <div className="mx-8 text-center mt-2">
-        <p>{t("speak-text")}</p>
-      </div>
-
       <h3 className="text-4xl text-gray-800 mt-12 font-serif">
         {t("Speakers")}
       </h3>

@@ -95,6 +95,24 @@ const speakers = [
     image: require("./photos/mesut.jpeg").default,
     twitter: "https://twitter.com/mesutgulecen",
   },
+  {
+    name: "Elçin Karatay",
+    organization: "Solak & Partners",
+    image: require("./photos/elcin.jpeg").default,
+    twitter: "https://twitter.com/elcin_karatay",
+  },
+  {
+    name: "Erdem Mümtaz Hacıpaşaoğlu",
+    organization: "Vircon Legal",
+    image: require("./photos/mumtaz.jpeg").default,
+    twitter: "https://twitter.com/MumtazHcpsglu",
+  },
+  {
+    name: "Ahmet Özcan",
+    organization: "Semiotic Labs",
+    image: require("./photos/ahmet.jpeg").default,
+    twitter: "https://twitter.com/ahmet_s_ozcan",
+  },
 ]
 
 export default speakers
