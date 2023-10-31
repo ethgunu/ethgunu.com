@@ -10,7 +10,12 @@ import { MdOutlineVolunteerActivism } from "react-icons/md"
 
 function Speaker({ speaker }) {
   return (
-    <a href={speaker.twitter} target="_blank" rel="noreferrer">
+    <a
+      href={speaker.twitter}
+      target="_blank"
+      rel="noreferrer"
+      className="w-32 text-center"
+    >
       <motion.div
         initial={{ y: 0 }}
         animate={{
