@@ -14,7 +14,7 @@ function Speaker({ speaker }) {
       href={speaker.twitter}
       target="_blank"
       rel="noreferrer"
-      className="w-32 md:w-auto text-center"
+      className="w-32 md:w-48 text-center"
     >
       <motion.div
         initial={{ y: 0 }}
