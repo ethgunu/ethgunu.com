@@ -10,6 +10,7 @@ import FAQ from "../components/main/FAQ"
 import Footer from "../components/main/Footer"
 import Seo from "../components/seo"
 import { useTranslation } from "gatsby-plugin-react-i18next"
+import Schedule from "../components/main/Schedule"
 
 export const query = graphql`
   query ($language: String!) {
@@ -38,6 +39,7 @@ const IndexPage = () => {
       <Hero />
       <Slogan />
       <WhoShouldAttend />
+      <Schedule />
       <Speakers />
       <FAQ />
       <Footer />
