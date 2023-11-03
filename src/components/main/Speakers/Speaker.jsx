@@ -69,7 +69,7 @@ export default function Speaker({ speaker, className, isDark }) {
               : "text-gray-500 group-hover:text-gunuNavy"
           }  transition-colors duration-300`}
         >
-          <FaTwitter className="" />
+          {speaker.twitter && <FaTwitter className="" />}
         </div>
       </motion.div>
     </a>
