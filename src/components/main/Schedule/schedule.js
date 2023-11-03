@@ -206,6 +206,7 @@ const Schedule = ({ isDarkMode }) => {
 
   const [nowDivider, setNowDivider] = React.useState(generateNowDivider())
 
+  const { t } = useTranslation()
   useEffect(() => {
     fetch(SCHEDULE_LINK)
       .then(response => response.json())
@@ -230,7 +231,7 @@ const Schedule = ({ isDarkMode }) => {
   if (!pretalxSchedule) {
     return (
       <div className="flex items-center justify-center h-[900px] text-lg animate-ping">
-        Loading Schedule...
+        {t("Loading Schedule")}...
       </div>
     )
   }
