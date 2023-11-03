@@ -138,12 +138,6 @@ const speakers = [
     twitter: "https://twitter.com/theyavuzarslan",
   },
   {
-    name: "Atakan Yavuzarslan",
-    organization: "Go+ Security",
-    image: require("./photos/atakan.jpeg").default,
-    twitter: "https://twitter.com/theyavuzarslan",
-  },
-  {
     name: "Eda Aktürk",
     organization: "BuidlGuidl",
     image: require("./photos/eda.jpeg").default,
