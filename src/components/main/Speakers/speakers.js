@@ -137,6 +137,42 @@ const speakers = [
     image: require("./photos/atakan.jpeg").default,
     twitter: "https://twitter.com/theyavuzarslan",
   },
+  {
+    name: "Atakan Yavuzarslan",
+    organization: "Go+ Security",
+    image: require("./photos/atakan.jpeg").default,
+    twitter: "https://twitter.com/theyavuzarslan",
+  },
+  {
+    name: "Eda Aktürk",
+    organization: "BuidlGuidl",
+    image: require("./photos/eda.jpeg").default,
+    twitter: "https://twitter.com/edatweets_",
+  },
+  {
+    name: "Sümeyra Bostancı",
+    organization: "İTU Blockchain",
+    image: require("./photos/sumeyra.jpeg").default,
+    // twitter: "https://twitter.com/edatweets_",
+  },
+  {
+    name: "Han Tüzün",
+    organization: "NeuFi",
+    image: require("./photos/han.jpeg").default,
+    twitter: "https://twitter.com/0xTuzun",
+  },
+  {
+    name: "Çağın Dönmez",
+    organization: "NeuFi",
+    image: require("./photos/cagin.jpeg").default,
+    twitter: "https://twitter.com/0xCagin",
+  },
+  {
+    name: "Görkem Bereket",
+    organization: "Merkezsiz",
+    image: require("./photos/gorkem.jpeg").default,
+    twitter: "https://twitter.com/goerrk",
+  },
 ]
 
 export default speakers
