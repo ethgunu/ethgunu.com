@@ -164,32 +164,36 @@ const EventContainer = ({ event, eventStyle }) => {
               </div>
             ))}
           </div>
-          {event?.abstract && event.type !== "Etkinlik Akışı" && (
-            <div>
-              <h2 className="text-2xl text-center font-serif">
-                {t("Abstract")}
-              </h2>
-              <div
-                className="text-sm text-justify"
-                style={{ wordBreak: "break-word" }}
-              >
-                {event.abstract}
+          {event?.abstract &&
+            event.type !== "Etkinlik Akışı" &&
+            event?.abstract !== "." && (
+              <div>
+                <h2 className="text-2xl text-center font-serif">
+                  {t("Abstract")}
+                </h2>
+                <div
+                  className="text-sm text-justify"
+                  style={{ wordBreak: "break-word" }}
+                >
+                  {event.abstract}
+                </div>
               </div>
-            </div>
-          )}
-          {description && event.type !== "Etkinlik Akışı" && (
-            <div className="mt-2">
-              <h2 className="text-2xl text-center font-serif">
-                {t("Description")}
-              </h2>
-              <div
-                className="text-sm text-justify"
-                style={{ wordBreak: "break-word" }}
-              >
-                {description}
+            )}
+          {description &&
+            event.type !== "Etkinlik Akışı" &&
+            description !== "." && (
+              <div className="mt-2">
+                <h2 className="text-2xl text-center font-serif">
+                  {t("Description")}
+                </h2>
+                <div
+                  className="text-sm text-justify"
+                  style={{ wordBreak: "break-word" }}
+                >
+                  {description}
+                </div>
               </div>
-            </div>
-          )}
+            )}
         </div>
       </ReactModal>
     </>
