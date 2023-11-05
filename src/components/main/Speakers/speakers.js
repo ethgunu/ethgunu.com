@@ -167,6 +167,11 @@ const speakers = [
     image: require("./photos/gorkem.jpeg").default,
     twitter: "https://twitter.com/goerrk",
   },
+  {
+    name: "Öznur Mut Sağdıçoğlu",
+    organization: "TUBİTAK BİLGEM",
+    image: require("./photos/oznur.jpg").default,
+  },
 ]
 
 export default speakers
