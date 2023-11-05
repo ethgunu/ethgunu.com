@@ -168,6 +168,12 @@ const speakers = [
     twitter: "https://twitter.com/goerrk",
   },
   {
+    name: "Taylan Ünal",
+    organization: "İTU Blockchain",
+    image: require("./photos/taylan.jpg").default,
+    twitter: "https://twitter.com/unalf_Taylan",
+  },
+  {
     name: "Öznur Mut Sağdıçoğlu",
     organization: "TUBİTAK BİLGEM",
     image: require("./photos/oznur.jpg").default,
