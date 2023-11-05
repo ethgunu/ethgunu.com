@@ -131,14 +131,6 @@
     {
       "q": "Etkinlik haftaiçi gerçekleşiyor, etkinlik alanından çalışabilecek miyim?",
       "a": "ETHGünü katılımcıları etkinlik günü yani 13 Kasım'da aynı binada bulunan <coworkLink>Devconnect Coworking</coworkLink> alanını kullanabilecekler. Haftanın geri kalan günleri için ayrıca coworking bileti almanız gerekmektedir. ETHGünü alanında WiFi da olacaktır. "
-    },
-    {
-      "q": "Bir konuşma veya workshop yapabilir miyim?",
-      "a": "Evet! Konuşmacı başvuruları açıldı. <cfpLink>Buradan</cfpLink> siz de bir konuşma, panel veya workshop yapmak için başvurabilirsiniz."
-    },
-    {
-      "q": "Nasıl katkı sağlayabilirim?",
-      "a": "Gönüllülük başvuruları kapandı. Başka şekilde katkı sağlamak istiyorsanız bize info@ethgunu.com'dan ulaşın."
     }
   ],
   "copyright-text": "Her hakkı saklıdır",

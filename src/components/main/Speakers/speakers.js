@@ -147,7 +147,7 @@ const speakers = [
     name: "Sümeyra Bostancı",
     organization: "İTU Blockchain",
     image: require("./photos/sumeyra.jpeg").default,
-    // twitter: "https://twitter.com/edatweets_",
+    twitter: "https://twitter.com/0xsumeyraa",
   },
   {
     name: "Han Tüzün",
