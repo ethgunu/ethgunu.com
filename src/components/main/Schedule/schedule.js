@@ -42,20 +42,16 @@ const EventContainer = ({ event, eventStyle }) => {
 
   switch (event.type) {
     case "Konuşma":
-      backgroundColor = "bg-orange-100"
-      trackFontColor = "text-orange-700"
+      backgroundColor = "bg-green-100"
       break
     case "Panel":
-      backgroundColor = "bg-sky-100"
-      trackFontColor = "text-sky-700"
+      backgroundColor = "bg-violet-100"
       break
     case "Workshop":
       backgroundColor = "bg-red-100"
-      trackFontColor = "text-red-700"
       break
     case "Etkinlik Akışı":
-      backgroundColor = "bg-green-100"
-      trackFontColor = "text-green-700"
+      backgroundColor = "bg-orange-100"
       break
     default:
       backgroundColor = "bg-gray-200"
