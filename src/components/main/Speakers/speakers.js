@@ -175,7 +175,7 @@ const speakers = [
   },
   {
     name: "Öznur Mut Sağdıçoğlu",
-    organization: "TUBİTAK BİLGEM",
+    organization: "TUBİTAK BİLGEM Blok Zincir Lab",
     image: require("./photos/oznur.jpg").default,
   },
 ]
