@@ -190,6 +190,12 @@ const speakers = [
     image: require("./photos/ataberk.jpeg").default,
     twitter: "https://twitter.com/degentellect",
   },
+  {
+    name: "Eril Gün Ezerel",
+    organization: "Best in Slot",
+    image: require("./photos/eril.jpeg").default,
+    twitter: "https://twitter.com/0xBinari",
+  },
 ]
 
 export default speakers
