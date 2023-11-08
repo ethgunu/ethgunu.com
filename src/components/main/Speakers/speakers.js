@@ -178,6 +178,18 @@ const speakers = [
     organization: "TUBİTAK BİLGEM Blok Zincir Lab",
     image: require("./photos/oznur.jpg").default,
   },
+  {
+    name: "Alp Ergin",
+    organization: "Inverter Network",
+    image: require("./photos/alp.jpeg").default,
+    twitter: "https://twitter.com/alpergintr",
+  },
+  {
+    name: "Ataberk Casur",
+    organization: "Inverter Network",
+    image: require("./photos/ataberk.jpeg").default,
+    twitter: "https://twitter.com/degentellect",
+  },
 ]
 
 export default speakers
