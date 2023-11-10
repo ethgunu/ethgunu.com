@@ -157,5 +157,10 @@
   "Abstract": "Özet",
   "Description": "Açıklama",
   "Schedule": "Program",
-  "Loading Schedule": "Program Yükleniyor"
+  "Loading Schedule": "Program Yükleniyor",
+  "Live Stream": "Canlı Yayın",
+  "Streaming Site": "Canlı Yayın Sitesi",
+  "Harbiye": "Harbiye (Ana Sahne)",
+  "Beyazit": "Beyazıt (Yan Sahne)",
+  "Emirgan": "Emirgan 1 (Workshop Sahnesi)"
 }

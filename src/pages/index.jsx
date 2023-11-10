@@ -9,6 +9,7 @@ import Speakers from "../components/main/Speakers"
 import FAQ from "../components/main/FAQ"
 import Footer from "../components/main/Footer"
 import Seo from "../components/seo"
+import LiveStream from "../components/main/LiveStream"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import Schedule from "../components/main/Schedule"
 
@@ -37,6 +38,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Hero />
+      <LiveStream />
       <Slogan />
       <WhoShouldAttend />
       <Schedule />
