@@ -6,6 +6,7 @@ import { BsArrowDownCircle } from "react-icons/bs"
 import "../Kaleidoscope"
 import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 import { GiTicket } from "react-icons/gi"
+import { MdLiveTv } from "react-icons/md"
 
 export default function Hero() {
   const { t } = useTranslation()
@@ -27,14 +28,23 @@ export default function Hero() {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-4">
-          <a
-            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all"
+          <button
+            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 uppercase text-white items-center rounded-full shadow-md z-30 font-semibold filter brightness-125 opacity-80"
             href="https://ticketh.xyz/ethgunu/ethgunu/"
             target="_blank"
             rel="noreferrer"
+            disabled
           >
             <GiTicket className="mr-1 text-xl" />
             {t("get-tickets")}
+          </button>
+          <a
+            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all uppercase ml-2 mt-2 md:mt-0"
+            href="https://app.streameth.org/devconnect/ethgunu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MdLiveTv className="mr-1 text-xl" /> {t("Session Recordings")}
           </a>
         </div>
       </div>
