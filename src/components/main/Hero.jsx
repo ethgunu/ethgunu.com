@@ -39,8 +39,8 @@ export default function Hero() {
             {t("get-tickets")}
           </button>
           <a
-            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 text-white items-center rounded-full shadow-md z-30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all uppercase ml-2 mt-2 md:mt-0"
-            href="https://app.streameth.org/devconnect/ethgunu"
+            className="flex flex-row md:text-base text-sm bg-gunuOrange px-4 py-3 md:px-6 md:py-4 text-white items-center rounded-full shadow-md z-x30 font-semibold hover:shadow-xl hover:filter hover:brightness-110 transition-all uppercase ml-2 mt-2 md:mt-0"
+            href="https://app.streameth.org/devconnect/ethgunu/archive"
             target="_blank"
             rel="noreferrer"
           >
