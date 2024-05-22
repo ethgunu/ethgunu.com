@@ -4,9 +4,7 @@ import shuffledSpeakers from "../Speakers/speakers"
 import Speaker from "../Speakers/Speaker"
 import "./modal.css"
 import { useTranslation } from "gatsby-plugin-react-i18next"
-
-const SCHEDULE_LINK =
-  "https://speak.ticketh.xyz/ethgunu/schedule/export/schedule.json"
+import pretalxSchedule from "./schedule.json"
 
 const CELL_HEIGHT = 34
 const CONF_START_TIME = "09:15"
@@ -201,32 +199,11 @@ const EventContainer = ({ event, eventStyle }) => {
 }
 
 const Schedule = ({ isDarkMode }) => {
-  const [pretalxSchedule, setPretalxSchedule] = React.useState()
   const [scheduleFetchError, setScheduleFetchError] = React.useState(false)
 
   const [nowDivider, setNowDivider] = React.useState(generateNowDivider())
 
   const { t } = useTranslation()
-  useEffect(() => {
-    fetch(SCHEDULE_LINK)
-      .then(response => response.json())
-      .then(data => {
-        setPretalxSchedule(data)
-      })
-      .catch(error => {
-        console.log(error)
-        setScheduleFetchError(error)
-      })
-
-    const interval = setInterval(() => {
-      // console.log("Updating now divider " + new Date());
-      setNowDivider(generateNowDivider())
-    }, 1000 * 15)
-
-    return () => {
-      clearInterval(interval)
-    }
-  }, [])
 
   if (!pretalxSchedule) {
     return (
